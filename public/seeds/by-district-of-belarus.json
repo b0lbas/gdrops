@@ -3,1536 +3,1536 @@
     "topicTitle":  "Default",
     "items":  [
                   {
-                      "answerText":  "Akciabrski",
+                      "answerText":  "Акцябрскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Akciabrski.svg",
                       "altAnswers":  [
-                                         "akciabrski"
+                                         "акцябрскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Asipovičy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Osipovichi%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "asipovi�y"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Ašmiany",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20A%C5%A1miany.svg",
-                      "altAnswers":  [
-                                         "a�miany"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Astraviec",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Astraviec.svg",
-                      "altAnswers":  [
-                                         "astraviec"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Babrujsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Babruisk%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "babrujsk"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Baranavichy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20Baranavi%C4%8Dy.svg",
-                      "altAnswers":  [
-                                         "baranavichy"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "coat"
-                  },
-                  {
-                      "answerText":  "Barysaŭ",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Barysa%C5%AD.svg",
-                      "altAnswers":  [
-                                         "barysa�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Bialyničy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bia%C5%82yni%C4%8Dy.svg",
-                      "altAnswers":  [
-                                         "bialyni�y"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Biaroza",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Biaroza-Kartuskaja.svg",
-                      "altAnswers":  [
-                                         "biaroza"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Bierastavica",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Brzostowica%20Wielka%20flag.gif",
-                      "altAnswers":  [
-                                         "bierastavica"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Bierazino",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bieraza%C5%84.png",
-                      "altAnswers":  [
-                                         "bierazino"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Biešankovičy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bie%C5%A1ankovi%C4%8Dy.svg",
-                      "altAnswers":  [
-                                         "bie�ankovi�y"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Brahin",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bragin.svg",
-                      "altAnswers":  [
-                                         "brahin"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Braslaŭ",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bras%C5%82a%C5%AD.svg",
-                      "altAnswers":  [
-                                         "brasla�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Brest",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Brest%20District.svg",
-                      "altAnswers":  [
-                                         "brest"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "coat"
-                  },
-                  {
-                      "answerText":  "Buda-Kašaliova",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Buda-Ka%C5%A1alova.svg",
-                      "altAnswers":  [
-                                         "buda-ka�aliova"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Bychaŭ",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bycha%C5%AD%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "bycha�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Čačersk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ca%C4%8Dersk%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "�a�ersk"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Čašniki",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ca%C5%A1niki.svg",
-                      "altAnswers":  [
-                                         "�a�niki"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Červień",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Cervie%C5%84%2C%20Belarus.png",
-                      "altAnswers":  [
-                                         "�ervie�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Čerykaŭ",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ceryka%C5%AD.png",
-                      "altAnswers":  [
-                                         "�eryka�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Chavusy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chausy.jpg",
-                      "altAnswers":  [
-                                         "chavusy"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Chocimsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chocimsk%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "chocimsk"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Chojniki",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chojniki.svg",
-                      "altAnswers":  [
-                                         "chojniki"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Dobruš",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dobru%C5%A1%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "dobru�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Dokšycy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dok%C5%A1ycy%20and%20Dok%C5%A1ycy%20Rajon.svg",
-                      "altAnswers":  [
-                                         "dok�ycy"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Drahičyn",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drahi%C4%8Dyn.svg",
-                      "altAnswers":  [
-                                         "drahi�yn"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Drybin",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drybin%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "drybin"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Dubroŭna",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dubro%C5%ADna%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "dubro�na"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Dziaržynsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dziar%C5%BEynsk%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "dziar�ynsk"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Dziatlava",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dziat%C5%82ava%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "dziatlava"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Gomel",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Homiel%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "gomel"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "coat"
-                  },
-                  {
-                      "answerText":  "Grodno",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D1%86%D1%8F%D0%B3%20%D0%93%D1%80%D0%BE%D0%B4%D0%B7%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D0%B3%D0%B0%20%D1%80%D0%B0%D1%91%D0%BD%D0%B0.jpg",
-                      "altAnswers":  [
-                                         "grodno"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Hantsavichy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hantsavichy%20District.svg",
-                      "altAnswers":  [
-                                         "hantsavichy"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Haradok",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Haradok%20and%20Haradok%20Rajon.svg",
-                      "altAnswers":  [
-                                         "haradok"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Hlusk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20H%C5%82usk.png",
-                      "altAnswers":  [
-                                         "hlusk"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Hlybokaje",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20H%C5%82ybokaje.svg",
-                      "altAnswers":  [
-                                         "hlybokaje"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Horki",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Horki%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "horki"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Iŭje",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20I%C5%ADje.svg",
-                      "altAnswers":  [
-                                         "i�je"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Ivacevičy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ivacevi%C4%8Dy.svg",
-                      "altAnswers":  [
-                                         "ivacevi�y"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Ivanava",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jana%C5%AD.svg",
-                      "altAnswers":  [
-                                         "ivanava"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Jeĺsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jelsk.png",
-                      "altAnswers":  [
-                                         "je�sk"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Kalinkavichy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kalinkavi%C4%8Dy.svg",
-                      "altAnswers":  [
-                                         "kalinkavichy"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Kamieniec",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20of%20Kamieniec%20District.svg",
-                      "altAnswers":  [
-                                         "kamieniec"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Kapyĺ",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kapyl.svg",
-                      "altAnswers":  [
-                                         "kapy�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Kareličy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kareli%C4%8Dy%20official.svg",
-                      "altAnswers":  [
-                                         "kareli�y"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Karma",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Karma.svg",
-                      "altAnswers":  [
-                                         "karma"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Kasciukovičy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ka%C5%9Bciukovi%C4%8Dy.png",
-                      "altAnswers":  [
-                                         "kasciukovi�y"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Kiraŭsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Kira%C5%ADsk%2C%20Belarus.png",
-                      "altAnswers":  [
-                                         "kira�sk"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "coat"
-                  },
-                  {
-                      "answerText":  "Kličaŭ",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kli%C4%8Da%C5%AD.svg",
-                      "altAnswers":  [
-                                         "kli�a�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Klieck",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kleck%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "klieck"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Klimavichy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Klimavi%C4%8Dy.svg",
-                      "altAnswers":  [
-                                         "klimavichy"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Kobryn",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kobryn.svg",
-                      "altAnswers":  [
-                                         "kobryn"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Krasnapollie",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Krasnapolle%2C%20Belarus.jpg",
-                      "altAnswers":  [
-                                         "krasnapollie"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Kruhlaje",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kruhlaje.svg",
-                      "altAnswers":  [
-                                         "kruhlaje"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Krupki",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Krupki.png",
-                      "altAnswers":  [
-                                         "krupki"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Kryčaŭ",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kry%C4%8Da%C5%AD.svg",
-                      "altAnswers":  [
-                                         "kry�a�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Lahojsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20%C5%81ahojsk%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "lahojsk"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "coat"
-                  },
-                  {
-                      "answerText":  "Lelchytsy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lel%C4%8Dycy.png",
-                      "altAnswers":  [
-                                         "lelchytsy"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Liachavičy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Liachavi%C4%8Dy%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "liachavi�y"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "coat"
-                  },
-                  {
-                      "answerText":  "Lida",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lida.svg",
-                      "altAnswers":  [
-                                         "lida"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Liepieĺ",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lepiel%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "liepie�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Liozna",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liozna%20District.svg",
-                      "altAnswers":  [
-                                         "liozna"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Lojeŭ",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%81oje%C5%AD.png",
-                      "altAnswers":  [
-                                         "loje�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Luniniec",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%81uniniec.svg",
-                      "altAnswers":  [
-                                         "luniniec"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Lyuban",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Luba%C5%84%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "lyuban"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Mahilow",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D1%86%D1%8F%D0%B3%20%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E%D1%81%D0%BA%D0%B0%D0%B3%D0%B0%20%D1%80%D0%B0%D1%91%D0%BD%D0%B0.jpg",
-                      "altAnswers":  [
-                                         "mahilow"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Maladziečna",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maladzechna%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "maladzie�na"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Malaryta",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Malaryta.png",
-                      "altAnswers":  [
-                                         "malaryta"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "coat"
-                  },
-                  {
-                      "answerText":  "Masty",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Mosty%20flag.svg",
-                      "altAnswers":  [
-                                         "masty"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Mazyr",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mazyr.svg",
-                      "altAnswers":  [
-                                         "mazyr"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Miadziel",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miadzie%C5%82%20and%20Miadzie%C5%82%20district%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "miadziel"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Minsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Minsk%20district.svg",
-                      "altAnswers":  [
-                                         "minsk"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Miory",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miory.svg",
-                      "altAnswers":  [
-                                         "miory"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Mstsislaw",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mscisla%C5%AD.png",
-                      "altAnswers":  [
-                                         "mstsislaw"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Naroŭlia",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Naro%C5%ADla%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "naro�lia"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "coat"
-                  },
-                  {
-                      "answerText":  "Navahrudak",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Navahradak.svg",
-                      "altAnswers":  [
-                                         "navahrudak"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Niasviž",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Niasvi%C5%BE.svg",
-                      "altAnswers":  [
-                                         "niasvi�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Orsha",
+                      "answerText":  "Аршанскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Or%C5%A1a.svg",
                       "altAnswers":  [
-                                         "orsha"
+                                         "аршанскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Pastavy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pastavy.svg",
+                      "answerText":  "Асіповіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Osipovichi%2C%20Belarus.svg",
                       "altAnswers":  [
-                                         "pastavy"
+                                         "асіповіцкі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Pietrykaŭ",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pietryka%C5%AD.svg",
+                      "answerText":  "Астравецкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Astraviec.svg",
                       "altAnswers":  [
-                                         "pietryka�"
+                                         "астравецкі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Pinsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pinsk%20District.svg",
+                      "answerText":  "Ашмянскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20A%C5%A1miany.svg",
                       "altAnswers":  [
-                                         "pinsk"
+                                         "ашмянскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Polotsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20city%20of%20Polotsk%20Belarus.svg",
+                      "answerText":  "Бабруйскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Babruisk%2C%20Belarus.svg",
                       "altAnswers":  [
-                                         "polotsk"
+                                         "бабруйскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Pružany",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pru%C5%BEany.svg",
+                      "answerText":  "Баранавіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20Baranavi%C4%8Dy.svg",
                       "altAnswers":  [
-                                         "pru�any"
+                                         "баранавіцкі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Puchavičy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Marjina%20Horka.png",
-                      "altAnswers":  [
-                                         "puchavi�y"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Rahachow",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Raha%C4%8Do%C5%AD.svg",
-                      "altAnswers":  [
-                                         "rahachow"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Rasony",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rasony.svg",
-                      "altAnswers":  [
-                                         "rasony"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Rečyca",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Re%C4%8Dyca%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "re�yca"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Salihorsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Salihorsk.svg",
-                      "altAnswers":  [
-                                         "salihorsk"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "� arkaŭščyna",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0arka%C5%AD%C5%A1%C4%8Dyna.svg",
-                      "altAnswers":  [
-                                         "� arka���yna"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Shchuchyn",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0%C4%8Du%C4%8Dyn.svg",
-                      "altAnswers":  [
-                                         "shchuchyn"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "� kłow",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shklo%C5%AD.png",
-                      "altAnswers":  [
-                                         "� k�ow"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Slaŭharad",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20S%C5%82a%C5%ADharad%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "sla�harad"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Slonim",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slonim%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "slonim"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Sluck",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20S%C5%82ucak.svg",
-                      "altAnswers":  [
-                                         "sluck"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Smaliavičy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Smalavi%C4%8Dy.svg",
-                      "altAnswers":  [
-                                         "smaliavi�y"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Smarhoń",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Smarho%C5%84%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "smarho�"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Staryja Darohi",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Staryja%20Darohi.svg",
-                      "altAnswers":  [
-                                         "staryja darohi"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Stolin",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Stolin%2C%20Belarus.svg",
-                      "altAnswers":  [
-                                         "stolin"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "coat"
                   },
                   {
-                      "answerText":  "Stoŭbcy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sto%C7%94bcy.svg",
+                      "answerText":  "Барысаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Barysa%C5%AD.svg",
                       "altAnswers":  [
-                                         "sto�bcy"
+                                         "барысаўскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "� umilina",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0umilina.svg",
+                      "answerText":  "Бераставіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Brzostowica%20Wielka%20flag.gif",
                       "altAnswers":  [
-                                         "� umilina"
+                                         "бераставіцкі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Svietlahorsk",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Svietlahorsk.svg",
+                      "answerText":  "Бешанковіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bie%C5%A1ankovi%C4%8Dy.svg",
                       "altAnswers":  [
-                                         "svietlahorsk"
+                                         "бешанковіцкі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Svislač",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%9Avis%C5%82a%C4%8D.svg",
+                      "answerText":  "Брагінскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bragin.svg",
                       "altAnswers":  [
-                                         "svisla�"
+                                         "брагінскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Syanno",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sianno.svg",
+                      "answerText":  "Браслаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bras%C5%82a%C5%AD.svg",
                       "altAnswers":  [
-                                         "syanno"
+                                         "браслаўскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Talačyn",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tala%C4%8Dyn%20and%20Tala%C4%8Dyn%20Rajon.svg",
+                      "answerText":  "Брэсцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Brest%20District.svg",
                       "altAnswers":  [
-                                         "tala�yn"
+                                         "брэсцкі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
-                      "imageSource":  "flag"
+                      "imageSource":  "coat"
                   },
                   {
-                      "answerText":  "Ušačy",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20U%C5%A1a%C4%8Dy.svg",
+                      "answerText":  "Буда-Кашалёўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Buda-Ka%C5%A1alova.svg",
                       "altAnswers":  [
-                                         "u�a�y"
+                                         "буда-кашалёўскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Uzda",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzda.svg",
+                      "answerText":  "Быхаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bycha%C5%AD%2C%20Belarus.svg",
                       "altAnswers":  [
-                                         "uzda"
+                                         "быхаўскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Valožyn",
+                      "answerText":  "Бялыніцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bia%C5%82yni%C4%8Dy.svg",
+                      "altAnswers":  [
+                                         "бялыніцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Бярозаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Biaroza-Kartuskaja.svg",
+                      "altAnswers":  [
+                                         "бярозаўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Бярэзінскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bieraza%C5%84.png",
+                      "altAnswers":  [
+                                         "бярэзінскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Валожынскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Va%C5%82o%C5%BEyn%2C%20Belarus.svg",
                       "altAnswers":  [
-                                         "valo�yn"
+                                         "валожынскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Vaŭkavysk",
+                      "answerText":  "Ваўкавыскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Wo%C5%82kowysk%20flag.svg",
                       "altAnswers":  [
-                                         "va�kavysk"
+                                         "ваўкавыскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Vierchniadzvinsk",
+                      "answerText":  "Верхнядзвінскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drysa%20and%20Drysa%20rajon.svg",
                       "altAnswers":  [
-                                         "vierchniadzvinsk"
+                                         "верхнядзвінскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Vietka",
+                      "answerText":  "Веткаўскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vietka%2C%20Belarus.svg",
                       "altAnswers":  [
-                                         "vietka"
+                                         "веткаўскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Vileyka",
+                      "answerText":  "Вілейскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vialejka.png",
                       "altAnswers":  [
-                                         "vileyka"
+                                         "вілейскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Vitebsk",
+                      "answerText":  "Віцебскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Viciebsk%20Rajon.svg",
                       "altAnswers":  [
-                                         "vitebsk"
+                                         "віцебскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Voranava",
+                      "answerText":  "Воранаўскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Woron%C3%B3w%20flag.jpg",
                       "altAnswers":  [
-                                         "voranava"
+                                         "воранаўскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Žabinka",
+                      "answerText":  "Ганцавіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hantsavichy%20District.svg",
+                      "altAnswers":  [
+                                         "ганцавіцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Гарадоцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Haradok%20and%20Haradok%20Rajon.svg",
+                      "altAnswers":  [
+                                         "гарадоцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Глускі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20H%C5%82usk.png",
+                      "altAnswers":  [
+                                         "глускі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Глыбоцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20H%C5%82ybokaje.svg",
+                      "altAnswers":  [
+                                         "глыбоцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Гомельскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Homiel%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "гомельскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "coat"
+                  },
+                  {
+                      "answerText":  "Горацкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Horki%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "горацкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Гродзенскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D1%86%D1%8F%D0%B3%20%D0%93%D1%80%D0%BE%D0%B4%D0%B7%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D0%B3%D0%B0%20%D1%80%D0%B0%D1%91%D0%BD%D0%B0.jpg",
+                      "altAnswers":  [
+                                         "гродзенскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Дзяржынскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dziar%C5%BEynsk%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "дзяржынскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Дзятлаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dziat%C5%82ava%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "дзятлаўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Добрушскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dobru%C5%A1%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "добрушскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Докшыцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dok%C5%A1ycy%20and%20Dok%C5%A1ycy%20Rajon.svg",
+                      "altAnswers":  [
+                                         "докшыцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Драгічынскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drahi%C4%8Dyn.svg",
+                      "altAnswers":  [
+                                         "драгічынскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Дрыбінскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drybin%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "дрыбінскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Дубровенскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dubro%C5%ADna%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "дубровенскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Ельскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jelsk.png",
+                      "altAnswers":  [
+                                         "ельскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Жабінкаўскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%BDabinka.svg",
                       "altAnswers":  [
-                                         "�abinka"
+                                         "жабінкаўскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Zeĺva",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Zelva%20flag.svg",
-                      "altAnswers":  [
-                                         "ze�va"
-                                     ],
-                      "tags":  {
-                                   "country":  "BY",
-                                   "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Žlobin",
+                      "answerText":  "Жлобінскі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zhlobin.jpg",
                       "altAnswers":  [
-                                         "�lobin"
+                                         "жлобінскі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Žytkavičy",
+                      "answerText":  "Жыткавіцкі",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%BDytkavi%C4%8Dy.svg",
                       "altAnswers":  [
-                                         "�ytkavi�y"
+                                         "жыткавіцкі"
                                      ],
                       "tags":  {
                                    "country":  "BY",
                                    "subdivisionType":  "district of Belarus",
-                                   "script":  "latin"
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Зэльвенскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Zelva%20flag.svg",
+                      "altAnswers":  [
+                                         "зэльвенскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Іванаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jana%C5%AD.svg",
+                      "altAnswers":  [
+                                         "іванаўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Івацэвіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ivacevi%C4%8Dy.svg",
+                      "altAnswers":  [
+                                         "івацэвіцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Іўеўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20I%C5%ADje.svg",
+                      "altAnswers":  [
+                                         "іўеўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Калінкавіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kalinkavi%C4%8Dy.svg",
+                      "altAnswers":  [
+                                         "калінкавіцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Камянецкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20of%20Kamieniec%20District.svg",
+                      "altAnswers":  [
+                                         "камянецкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Капыльскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kapyl.svg",
+                      "altAnswers":  [
+                                         "капыльскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Кармянскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Karma.svg",
+                      "altAnswers":  [
+                                         "кармянскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Карэліцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kareli%C4%8Dy%20official.svg",
+                      "altAnswers":  [
+                                         "карэліцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Касцюковіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ka%C5%9Bciukovi%C4%8Dy.png",
+                      "altAnswers":  [
+                                         "касцюковіцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Кіраўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Kira%C5%ADsk%2C%20Belarus.png",
+                      "altAnswers":  [
+                                         "кіраўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "coat"
+                  },
+                  {
+                      "answerText":  "Клецкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kleck%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "клецкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Клімавіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Klimavi%C4%8Dy.svg",
+                      "altAnswers":  [
+                                         "клімавіцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Клічаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kli%C4%8Da%C5%AD.svg",
+                      "altAnswers":  [
+                                         "клічаўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Кобрынскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kobryn.svg",
+                      "altAnswers":  [
+                                         "кобрынскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Краснапольскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Krasnapolle%2C%20Belarus.jpg",
+                      "altAnswers":  [
+                                         "краснапольскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Круглянскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kruhlaje.svg",
+                      "altAnswers":  [
+                                         "круглянскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Крупскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Krupki.png",
+                      "altAnswers":  [
+                                         "крупскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Крычаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kry%C4%8Da%C5%AD.svg",
+                      "altAnswers":  [
+                                         "крычаўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Лагойскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20%C5%81ahojsk%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "лагойскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "coat"
+                  },
+                  {
+                      "answerText":  "Лёзненскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liozna%20District.svg",
+                      "altAnswers":  [
+                                         "лёзненскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Лельчыцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lel%C4%8Dycy.png",
+                      "altAnswers":  [
+                                         "лельчыцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Лепельскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lepiel%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "лепельскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Лідскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lida.svg",
+                      "altAnswers":  [
+                                         "лідскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Лоеўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%81oje%C5%AD.png",
+                      "altAnswers":  [
+                                         "лоеўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Лунінецкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%81uniniec.svg",
+                      "altAnswers":  [
+                                         "лунінецкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Любанскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Luba%C5%84%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "любанскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Ляхавіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Liachavi%C4%8Dy%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "ляхавіцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "coat"
+                  },
+                  {
+                      "answerText":  "Магілёўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D1%86%D1%8F%D0%B3%20%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E%D1%81%D0%BA%D0%B0%D0%B3%D0%B0%20%D1%80%D0%B0%D1%91%D0%BD%D0%B0.jpg",
+                      "altAnswers":  [
+                                         "магілёўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Мазырскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mazyr.svg",
+                      "altAnswers":  [
+                                         "мазырскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Маладзечанскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maladzechna%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "маладзечанскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Маларыцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Malaryta.png",
+                      "altAnswers":  [
+                                         "маларыцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "coat"
+                  },
+                  {
+                      "answerText":  "Мастоўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Mosty%20flag.svg",
+                      "altAnswers":  [
+                                         "мастоўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Мёрскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miory.svg",
+                      "altAnswers":  [
+                                         "мёрскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Мінскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Minsk%20district.svg",
+                      "altAnswers":  [
+                                         "мінскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Мсціслаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mscisla%C5%AD.png",
+                      "altAnswers":  [
+                                         "мсціслаўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Мядзельскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miadzie%C5%82%20and%20Miadzie%C5%82%20district%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "мядзельскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Навагрудскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Navahradak.svg",
+                      "altAnswers":  [
+                                         "навагрудскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Нараўлянскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Naro%C5%ADla%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "нараўлянскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "coat"
+                  },
+                  {
+                      "answerText":  "Нясвіжскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Niasvi%C5%BE.svg",
+                      "altAnswers":  [
+                                         "нясвіжскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Пастаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pastavy.svg",
+                      "altAnswers":  [
+                                         "пастаўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Петрыкаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pietryka%C5%AD.svg",
+                      "altAnswers":  [
+                                         "петрыкаўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Пінскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pinsk%20District.svg",
+                      "altAnswers":  [
+                                         "пінскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Полацкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20city%20of%20Polotsk%20Belarus.svg",
+                      "altAnswers":  [
+                                         "полацкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Пружанскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pru%C5%BEany.svg",
+                      "altAnswers":  [
+                                         "пружанскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Пухавіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Marjina%20Horka.png",
+                      "altAnswers":  [
+                                         "пухавіцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Рагачоўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Raha%C4%8Do%C5%AD.svg",
+                      "altAnswers":  [
+                                         "рагачоўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Расонскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rasony.svg",
+                      "altAnswers":  [
+                                         "расонскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Рэчыцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Re%C4%8Dyca%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "рэчыцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Салігорскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Salihorsk.svg",
+                      "altAnswers":  [
+                                         "салігорскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Светлагорскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Svietlahorsk.svg",
+                      "altAnswers":  [
+                                         "светлагорскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Свіслацкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%9Avis%C5%82a%C4%8D.svg",
+                      "altAnswers":  [
+                                         "свіслацкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Сенненскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sianno.svg",
+                      "altAnswers":  [
+                                         "сенненскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Слаўгарадскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20S%C5%82a%C5%ADharad%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "слаўгарадскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Слонімскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slonim%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "слонімскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Слуцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20S%C5%82ucak.svg",
+                      "altAnswers":  [
+                                         "слуцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Смалявіцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Smalavi%C4%8Dy.svg",
+                      "altAnswers":  [
+                                         "смалявіцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Смаргонскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Smarho%C5%84%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "смаргонскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Старадарожскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Staryja%20Darohi.svg",
+                      "altAnswers":  [
+                                         "старадарожскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Стаўбцоўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sto%C7%94bcy.svg",
+                      "altAnswers":  [
+                                         "стаўбцоўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Столінскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Stolin%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "столінскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "coat"
+                  },
+                  {
+                      "answerText":  "Талачынскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tala%C4%8Dyn%20and%20Tala%C4%8Dyn%20Rajon.svg",
+                      "altAnswers":  [
+                                         "талачынскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Уздзенскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzda.svg",
+                      "altAnswers":  [
+                                         "уздзенскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Ушацкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20U%C5%A1a%C4%8Dy.svg",
+                      "altAnswers":  [
+                                         "ушацкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Хойніцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chojniki.svg",
+                      "altAnswers":  [
+                                         "хойніцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Хоцімскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chocimsk%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "хоцімскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Чавускі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chausy.jpg",
+                      "altAnswers":  [
+                                         "чавускі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Чачэрскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ca%C4%8Dersk%2C%20Belarus.svg",
+                      "altAnswers":  [
+                                         "чачэрскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Чашніцкі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ca%C5%A1niki.svg",
+                      "altAnswers":  [
+                                         "чашніцкі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Чэрвеньскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Cervie%C5%84%2C%20Belarus.png",
+                      "altAnswers":  [
+                                         "чэрвеньскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Чэрыкаўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ceryka%C5%AD.png",
+                      "altAnswers":  [
+                                         "чэрыкаўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Шаркаўшчынскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0arka%C5%AD%C5%A1%C4%8Dyna.svg",
+                      "altAnswers":  [
+                                         "шаркаўшчынскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Шклоўскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shklo%C5%AD.png",
+                      "altAnswers":  [
+                                         "шклоўскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Шумілінскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0umilina.svg",
+                      "altAnswers":  [
+                                         "шумілінскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Шчучынскі",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0%C4%8Du%C4%8Dyn.svg",
+                      "altAnswers":  [
+                                         "шчучынскі"
+                                     ],
+                      "tags":  {
+                                   "country":  "BY",
+                                   "subdivisionType":  "district of Belarus",
+                                   "script":  "cyrillic"
                                },
                       "imageSource":  "flag"
                   }

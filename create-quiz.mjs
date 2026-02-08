@@ -25,6 +25,10 @@ const LANGS = normalizeLangs(process.env.WDQS_LANGS ?? "en");
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 
+const ISO_ENV = normalizeIso(process.env.WDQS_ISO ?? "");
+const TYPE_LABEL_ENV = String(process.env.WDQS_TYPE_LABEL ?? "").trim();
+const OUTPUT_FILE_ENV = String(process.env.WDQS_OUTPUT_FILE ?? "").trim();
+
 function ask(question) {
   return new Promise((resolve) => rl.question(question, (ans) => resolve(ans.trim())));
 }
@@ -39,6 +43,11 @@ function normalizeLangs(raw) {
   // Разрешаем a-z, 0-9, - и запятые.
   const cleaned = s.replace(/[^a-zA-Z0-9,-]/g, "");
   return cleaned || "en";
+}
+
+function normalizeIso(raw) {
+  const s = String(raw ?? "").trim().toUpperCase();
+  return /^[A-Z]{2}$/.test(s) ? s : "";
 }
 
 function val(binding, key) {
@@ -356,7 +365,7 @@ async function getItems(countryUri, typeUri, startStrategyId) {
 
 async function main() {
   try {
-    const iso = (await ask("ISO code (2 letters, e.g. ES): ")).toUpperCase();
+    const iso = ISO_ENV || (await ask("ISO code (2 letters, e.g. ES): ")).toUpperCase();
     if (!/^[A-Z]{2}$/.test(iso)) throw new Error("Bad ISO code");
 
     const country = await getCountryByIso(iso);
@@ -375,18 +384,30 @@ async function main() {
 
     if (!typeRows.length) throw new Error("No usable admin types found for " + country.label);
 
-    console.log(`\nChoose division type (strategy: ${typesStrat?.id ?? "?"}):`);
-    typeRows.slice(0, MAX_TYPES_SHOWN).forEach((r, i) => {
-      console.log(`${i + 1}) ${r.label} (${r.count})`);
-    });
+    let type;
+    let typeLabel;
+    if (TYPE_LABEL_ENV) {
+      const match = typeRows.find((r) => r.label === TYPE_LABEL_ENV) ||
+        typeRows.find((r) => r.label.toLowerCase() === TYPE_LABEL_ENV.toLowerCase());
+      if (!match) {
+        throw new Error(`Type label not found: ${TYPE_LABEL_ENV}`);
+      }
+      type = match.type;
+      typeLabel = match.label;
+    } else {
+      console.log(`\nChoose division type (strategy: ${typesStrat?.id ?? "?"}):`);
+      typeRows.slice(0, MAX_TYPES_SHOWN).forEach((r, i) => {
+        console.log(`${i + 1}) ${r.label} (${r.count})`);
+      });
 
-    const pick = parseInt(await ask("Type number: "), 10);
-    if (!pick || pick < 1 || pick > Math.min(MAX_TYPES_SHOWN, typeRows.length)) {
-      throw new Error("Bad selection");
+      const pick = parseInt(await ask("Type number: "), 10);
+      if (!pick || pick < 1 || pick > Math.min(MAX_TYPES_SHOWN, typeRows.length)) {
+        throw new Error("Bad selection");
+      }
+
+      type = typeRows[pick - 1].type;
+      typeLabel = typeRows[pick - 1].label;
     }
-
-    const type = typeRows[pick - 1].type;
-    const typeLabel = typeRows[pick - 1].label;
 
     const { rows: itemRows, strat: itemsStrat } = await getItems(country.uri, type, typesStrat?.id);
     if (!itemRows.length) throw new Error(`No items found for ${country.label} / ${typeLabel}`);
@@ -441,14 +462,21 @@ async function main() {
       return base || "seed";
     };
 
-    const baseName = `${iso.toLowerCase()}-${slug(typeLabel)}`;
-    let fileName = `${baseName}.json`;
-    let seedPath = path.join(seedsDir, fileName);
-    let n = 2;
-    while (fs.existsSync(seedPath)) {
-      fileName = `${baseName}-${n}.json`;
+    let fileName;
+    let seedPath;
+    if (OUTPUT_FILE_ENV) {
+      seedPath = path.resolve(process.cwd(), OUTPUT_FILE_ENV);
+      fileName = path.basename(seedPath);
+    } else {
+      const baseName = `${iso.toLowerCase()}-${slug(typeLabel)}`;
+      fileName = `${baseName}.json`;
       seedPath = path.join(seedsDir, fileName);
-      n += 1;
+      let n = 2;
+      while (fs.existsSync(seedPath)) {
+        fileName = `${baseName}-${n}.json`;
+        seedPath = path.join(seedsDir, fileName);
+        n += 1;
+      }
     }
 
     ensureDirForFile(seedPath);
@@ -456,14 +484,18 @@ async function main() {
     fs.writeFileSync(seedPath, JSON.stringify(seed, null, 2), "utf8");
 
     const indexPath = path.join(seedsDir, "index.json");
-    let idx = { files: [] };
-    try {
-      idx = JSON.parse(fs.readFileSync(indexPath, "utf8"));
-    } catch {}
-    const rel = "seeds/" + fileName;
-    const files = Array.isArray(idx.files) ? idx.files : [];
-    if (!files.includes(rel)) files.push(rel);
-    fs.writeFileSync(indexPath, JSON.stringify({ files }, null, 2), "utf8");
+    const relToSeeds = path.relative(seedsDir, seedPath);
+    const isInSeedsDir = relToSeeds && !relToSeeds.startsWith("..") && !path.isAbsolute(relToSeeds);
+    if (isInSeedsDir) {
+      let idx = { files: [] };
+      try {
+        idx = JSON.parse(fs.readFileSync(indexPath, "utf8"));
+      } catch {}
+      const rel = "seeds/" + relToSeeds.split(path.sep).join("/");
+      const files = Array.isArray(idx.files) ? idx.files : [];
+      if (!files.includes(rel)) files.push(rel);
+      fs.writeFileSync(indexPath, JSON.stringify({ files }, null, 2), "utf8");
+    }
     fs.writeFileSync(
       reportPath,
       JSON.stringify(
