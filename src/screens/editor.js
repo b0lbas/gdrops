@@ -13,9 +13,8 @@ export async function EditorScreen(ctx, quizId){
   state.editorTopicId = selectedTopicId;
 
   const top = h("div", { class:"topbar" },
-    h("div", { class:"row topbarRow" },
+    h("div", { class:"row", style:"justify-content:space-between;align-items:center;" },
       btn("←", ()=>nav(`/quiz/${quizId}`), "btn"),
-      h("div", { class:"title topbarTitle" }, "Edit"),
       h("div", { class:"row" },
         btn("Name", ()=>renameQuiz()),
         btn("Topic", ()=>addTopic()),

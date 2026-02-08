@@ -9,9 +9,8 @@ export async function QuizScreen(ctx, quizId){
   const topics = await listTopicsByQuiz(quizId);
 
   const top = h("div", { class:"topbar" },
-    h("div", { class:"row topbarRow" },
+    h("div", { class:"row", style:"justify-content:space-between;align-items:center;" },
       btn("←", ()=>nav("/"), "btn"),
-      h("div", { class:"title topbarTitle" }, quiz.title || "Quiz"),
       h("div", { class:"row" },
         btn("Edit", ()=>nav(`/quiz/${quizId}/edit`))
       )

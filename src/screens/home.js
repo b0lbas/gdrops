@@ -6,10 +6,7 @@ export async function HomeScreen(ctx){
   const quizzes = await listQuizzes();
 
   const top = h("div", { class:"topbar" },
-    h("div", { class:"row topbarRow" },
-      h("div", { class:"title topbarTitle" }, "GeoDrops"),
-      h("div", { class:"slotGap" })
-    )
+    h("img", { class:"logo", src:"/logo.svg", alt:"GeoDrops" })
   );
 
   const list = h("div", { class:"list" },

@@ -36,21 +36,10 @@ hr{ border:0; border-top:1px solid var(--line); margin:16px 0; }
   gap:10px;
   margin-bottom:12px;
 }
-.topbarRow{
-  position:relative;
-  width:100%;
-  justify-content:space-between;
-}
-.topbarTitle{
-  position:absolute;
-  left:50%;
-  transform:translateX(-50%);
-  max-width:70%;
-  text-align:center;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  pointer-events:none;
+.logo{
+  height:28px;
+  width:auto;
+  display:block;
 }
 .title{
   font-size:16px;

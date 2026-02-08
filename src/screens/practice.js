@@ -85,10 +85,8 @@ export async function PracticeScreen(ctx, query){
   ctx.state.practiceStop = stop;
 
   const top = h("div", { class:"topbar" },
-    h("div", { class:"row topbarRow", style:"align-items:center;" },
-      btn("←", ()=>{ stop(); nav(`/quiz/${quizId}`); }, "btn"),
-      h("div", { class:"title topbarTitle" }, topic?.title || quiz?.title || "Practice"),
-      h("div", { class:"slotGap" })
+    h("div", { class:"row", style:"align-items:center;" },
+      btn("←", ()=>{ stop(); nav(`/quiz/${quizId}`); }, "btn")
     )
   );
 
