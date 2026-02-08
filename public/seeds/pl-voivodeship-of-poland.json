@@ -1,0 +1,214 @@
+{
+  "quizTitle": "Polska - województwa",
+  "topicTitle": "Default",
+  "items": [
+    {
+      "answerText": "Wielkopolskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20wielkopolskie%20flag.svg",
+      "altAnswers": [
+        "wielkopolskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Kujawsko-Pomorskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20kujawsko-pomorskie%20flag.svg",
+      "altAnswers": [
+        "kujawsko-pomorskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Małopolskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20ma%C5%82opolskie%20flag.svg",
+      "altAnswers": [
+        "małopolskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Łódzkie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20%C5%82%C3%B3dzkie%201%20flag.svg",
+      "altAnswers": [
+        "łódzkie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Dolnośląskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20dolno%C5%9Bl%C4%85skie%20flag.svg",
+      "altAnswers": [
+        "dolnośląskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Lubelskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20lubelskie%20flag.svg",
+      "altAnswers": [
+        "lubelskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Lubuskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20lubuskie%20flag.svg",
+      "altAnswers": [
+        "lubuskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Mazowieckie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20mazowieckie%20flag.svg",
+      "altAnswers": [
+        "mazowieckie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Opolskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20opolskie%20flag.svg",
+      "altAnswers": [
+        "opolskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Podkarpackie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20podkarpackie%20flag.svg",
+      "altAnswers": [
+        "podkarpackie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Podlaskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20podlaskie%20flag.svg",
+      "altAnswers": [
+        "podlaskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Pomorskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20pomorskie%20flag.svg",
+      "altAnswers": [
+        "pomorskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Śląskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20%C5%9Bl%C4%85skie%20flag.svg",
+      "altAnswers": [
+        "śląskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Świętokrzyskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20%C5%9Bwi%C4%99tokrzyskie%20flag.svg",
+      "altAnswers": [
+        "świętokrzyskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Warmińsko-Mazurskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20warmi%C5%84sko-mazurskie%20flag.svg",
+      "altAnswers": [
+        "warmińsko-mazurskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Zachodniopomorskie",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20zachodniopomorskie%20flag.svg",
+      "altAnswers": [
+        "zachodniopomorskie"
+      ],
+      "tags": {
+        "country": "PL",
+        "subdivisionType": "voivodeship of Poland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    }
+  ]
+}

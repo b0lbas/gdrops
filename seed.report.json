@@ -1,139 +1,89 @@
 {
-  "country": "Switzerland",
-  "type": "canton of Switzerland",
+  "country": "Poland",
+  "type": "voivodeship of Poland",
   "strategyTypes": "p150",
   "strategyItems": "p150",
-  "total": 26,
+  "total": 16,
   "missing": 0,
   "report": [
     {
-      "name": "Canton of Valais",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Valais.svg",
+      "name": "Lower Silesian Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20dolno%C5%9Bl%C4%85skie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Berne",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Bern.svg",
+      "name": "Kuyavian-Pomeranian Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20kujawsko-pomorskie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Geneva",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Geneva.svg",
+      "name": "Lublin Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20lubelskie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Glarus",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Glarus.svg",
+      "name": "Lubusz Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20lubuskie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of the Grisons",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CHE%20Graub%C3%BCnden%20Flag.svg",
+      "name": "Łódź Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20%C5%82%C3%B3dzkie%201%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Solothurn",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Solothurn.svg",
+      "name": "Lesser Poland Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20ma%C5%82opolskie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Zug",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Zug.svg",
+      "name": "Masovian Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20mazowieckie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Zürich",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CHE%20Z%C3%BCrich%20Flag.svg",
+      "name": "Opole Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20opolskie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Aargau",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Aargau.svg",
+      "name": "Podkarpackie Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20podkarpackie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Appenzell Ausserrhoden",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Appenzell%20Ausserrhoden.svg",
+      "name": "Podlaskie Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20podlaskie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Appenzell Innerrhoden",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Appenzell%20Innerrhoden.svg",
+      "name": "Pomeranian Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20pomorskie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Lucerne",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Lucerne.svg",
+      "name": "Silesian Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20%C5%9Bl%C4%85skie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Basel-Landschaft",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Basel-Landschaft.svg",
+      "name": "Świętokrzyskie Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20%C5%9Bwi%C4%99tokrzyskie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Basel-Stadt",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Basel.svg",
+      "name": "Warmian-Masurian Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20warmi%C5%84sko-mazurskie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Uri",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Uri.svg",
+      "name": "Greater Poland Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20wielkopolskie%20flag.svg",
       "source": "flag"
     },
     {
-      "name": "Canton of Schwyz",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Schwyz.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Canton of Obwalden",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Obwalden.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Canton of Nidwalden",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Nidwalden.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Canton of Fribourg",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Fribourg.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Canton of Schaffhausen",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Schaffhausen.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Canton of Thurgau",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Thurgau.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Canton of Ticino",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CHE%20Ticino%20Flag.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Canton of Neuchâtel",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Neuch%C3%A2tel.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Canton of St. Gallen",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Sankt%20Gallen%202011.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Canton of Jura",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Jura.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Canton of Vaud",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Vaud.svg",
+      "name": "West Pomeranian Voivodeship",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/POL%20wojew%C3%B3dztwo%20zachodniopomorskie%20flag.svg",
       "source": "flag"
     }
   ]

@@ -7,6 +7,7 @@
     "seeds/by-district-of-belarus.json",
     "seeds/my-state-of-malaysia.json",
     "seeds/de-federated-state-of-germany.json",
-    "seeds/ch-canton-of-switzerland.json"
+    "seeds/ch-canton-of-switzerland.json",
+    "seeds/pl-voivodeship-of-poland.json"
   ]
 }
