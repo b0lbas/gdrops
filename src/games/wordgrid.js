@@ -18,6 +18,15 @@ function lettersOnly(s){
   return out;
 }
 
+const LATIN_DECOYS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+const CYRILLIC_DECOYS = "АБВГДЕЁЖЗІЙКЛМНОПРСТУЎФХЦЧШЫЬЭЮЯ".split("");
+
+function decoysForLetters(letters){
+  const joined = letters.join("");
+  if (/[\u0400-\u04FF]/.test(joined)) return CYRILLIC_DECOYS;
+  return LATIN_DECOYS;
+}
+
 function neighbors(idx, size){
   const r = Math.floor(idx / size);
   const c = idx % size;
@@ -78,7 +87,7 @@ export function pickWordGrid(items){
     const grid = new Array(size*size).fill(null);
     for (let i=0; i<letters.length; i++) grid[path[i]] = letters[i];
 
-    const decoys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+    const decoys = decoysForLetters(letters);
     for (let i=0; i<grid.length; i++){
       if (!grid[i]) grid[i] = decoys[Math.floor(Math.random()*decoys.length)];
     }

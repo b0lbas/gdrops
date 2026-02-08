@@ -1,4 +1,4 @@
-import { h, btn, pillGroup, toast } from "../ui.js";
+import { h, btn, toast } from "../ui.js";
 import { nav } from "../router.js";
 import { listItemsByQuiz, listItemsByTopic, getQuiz, getTopic, putItem } from "../db.js";
 import { isNew, updateSrs } from "../srs.js";
@@ -9,6 +9,34 @@ import { pickSpeed, renderSpeed } from "../games/speed.js";
 import { pickFragments, renderFragments } from "../games/fragments.js";
 import { pickTrueFalse, renderTrueFalse } from "../games/truefalse.js";
 import { pickWordGrid, renderWordGrid } from "../games/wordgrid.js";
+
+const SESSION_VERSION = 1;
+
+function practiceSessionKey(quizId, topicId, mode){
+  return `geodrops:practiceSession:${quizId || ""}:${topicId || ""}:${mode || ""}`;
+}
+
+function loadPracticeSession(key){
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    const data = JSON.parse(raw);
+    if (!data || data.version !== SESSION_VERSION) return null;
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+function savePracticeSession(key, data){
+  try {
+    localStorage.setItem(key, JSON.stringify(data));
+  } catch {}
+}
+
+function clearPracticeSession(key){
+  try { localStorage.removeItem(key); } catch {}
+}
 
 function shuffle(arr){
   const a = arr.slice();
@@ -30,11 +58,7 @@ export async function PracticeScreen(ctx, query){
   const quizId = query.get("quizId");
   const topicId = query.get("topicId");
   const mode = query.get("mode") || "topic";
-
-  const MIN_KEY = "geodrops:lastMinutes";
-  let minutes = parseInt(query.get("minutes") || localStorage.getItem(MIN_KEY) || "5", 10) || 5;
-  if (![2,5,10].includes(minutes)) minutes = 5;
-  localStorage.setItem(MIN_KEY, String(minutes));
+  const sessionKey = practiceSessionKey(quizId, topicId || "", mode);
 
   const quiz = await getQuiz(quizId);
   if (!quiz) return h("div",{class:"wrap"}, h("div",{class:"sub"},"missing"));
@@ -42,44 +66,59 @@ export async function PracticeScreen(ctx, query){
   const topic = topicId ? await getTopic(topicId) : null;
 
   let destroyed = false;
-  let ticking = null;
   let running = false;
+  let saveTimer = null;
+  let saveSessionFn = null;
+  let onVisibilityChange = null;
   const recentIds = [];
 
   function stop(){
     destroyed = true;
+    if (saveSessionFn) saveSessionFn();
+    saveSessionFn = null;
+    if (saveTimer) clearInterval(saveTimer);
+    saveTimer = null;
+    if (onVisibilityChange) document.removeEventListener("visibilitychange", onVisibilityChange);
+    onVisibilityChange = null;
     running = false;
     ctx.state.practiceActive = false;
-    if (ticking) clearInterval(ticking);
-    ticking = null;
   }
   ctx.state.practiceStop = stop;
-
-  const pills = pillGroup(
-    [{value:"2",label:"2"},{value:"5",label:"5"},{value:"10",label:"10"}],
-    String(minutes),
-    (v)=>{
-      // restart with new duration (Drops-like: no extra Start)
-      nav("/practice", { quizId, topicId: topicId || "", mode, minutes: v, autostart: "1" });
-    }
-  );
 
   const top = h("div", { class:"topbar" },
     h("div", { class:"row", style:"justify-content:space-between;align-items:center;" },
       h("div", { class:"row" },
         btn("←", ()=>{ stop(); nav(`/quiz/${quizId}`); }, "btn"),
         h("div", { class:"title" }, mode === "dojo" ? "Dojo" : (topic?.title || "Practice"))
-      ),
-      pills
+      )
     )
   );
 
   const holder = h("div", { class:"col", style:"margin-top:10px;" });
 
-  // auto-start always (closer to Drops)
-  setTimeout(()=>start(), 0);
+  // auto-start (unless there is a saved session to resume)
+  setTimeout(()=>maybeStart(), 0);
 
-  async function start(){
+  function showResumePrompt(saved){
+    holder.innerHTML = "";
+    const card = h("div", { class:"card" },
+      h("div", { class:"title" }, "Resume session?"),
+      h("div", { class:"row" },
+        btn("Resume", ()=>start(saved)),
+        btn("New", ()=>{ clearPracticeSession(sessionKey); start(null); }, "btn")
+      )
+    );
+    holder.appendChild(card);
+  }
+
+  function maybeStart(){
+    if (destroyed) return;
+    const saved = loadPracticeSession(sessionKey);
+    if (saved) return showResumePrompt(saved);
+    start(null);
+  }
+
+  async function start(resume){
     if (destroyed || running) return;
     running = true;
     ctx.state.practiceActive = true;
@@ -95,13 +134,30 @@ export async function PracticeScreen(ctx, query){
     if (!items.length){ toast("done"); running=false; return; }
 
 
-    const endAt = Date.now() + minutes * 60 * 1000;
-
-    const stats = { correct:0, wrong:0, new:0, reviewed:0 };
+    const stats = resume?.stats
+      ? { correct: resume.stats.correct || 0, wrong: resume.stats.wrong || 0, new: resume.stats.new || 0, reviewed: resume.stats.reviewed || 0 }
+      : { correct:0, wrong:0, new:0, reviewed:0 };
     const wasNew = new Map();
-    for (const it of items) wasNew.set(it.id, isNew(it));
+    const resumeNewIds = Array.isArray(resume?.wasNewIds) ? new Set(resume.wasNewIds) : null;
+    for (const it of items){
+      wasNew.set(it.id, resumeNewIds ? resumeNewIds.has(it.id) : isNew(it));
+    }
 
-    const order = shuffle(items.slice());
+    const itemsById = new Map(items.map(it => [it.id, it]));
+    let order = [];
+    if (Array.isArray(resume?.orderIds) && resume.orderIds.length) {
+      const used = new Set();
+      for (const id of resume.orderIds) {
+        const it = itemsById.get(id);
+        if (!it || used.has(id)) continue;
+        used.add(id);
+        order.push(it);
+      }
+      const remaining = items.filter(it => !used.has(it.id));
+      order = order.concat(shuffle(remaining));
+    } else {
+      order = shuffle(items.slice());
+    }
     const batches = [];
     for (let i=0; i<order.length; i+=4){
       batches.push(order.slice(i, i+4));
@@ -113,10 +169,27 @@ export async function PracticeScreen(ctx, query){
       seenCount.set(it.id, 0);
       streakCount.set(it.id, 0);
     }
+    if (Array.isArray(resume?.seenCount)) {
+      for (const [id, val] of resume.seenCount) {
+        if (seenCount.has(id)) seenCount.set(id, Number(val) || 0);
+      }
+    }
+    if (Array.isArray(resume?.streakCount)) {
+      for (const [id, val] of resume.streakCount) {
+        if (streakCount.has(id)) streakCount.set(id, Number(val) || 0);
+      }
+    }
 
-    let batchIndex = 0;
-    let roundCount = 0;
+    let batchIndex = Number.isFinite(resume?.batchIndex) ? resume.batchIndex : 0;
+    let roundCount = Number.isFinite(resume?.roundCount) ? resume.roundCount : 0;
     const lastKindAt = new Map();
+    if (Array.isArray(resume?.lastKindAt)) {
+      for (const [kind, val] of resume.lastKindAt) lastKindAt.set(kind, Number(val) || 0);
+    }
+    recentIds.length = 0;
+    if (Array.isArray(resume?.recentIds)) {
+      recentIds.push(...resume.recentIds.slice(0, 3));
+    }
 
     function kindAllowed(kind){
       const last = lastKindAt.get(kind);
@@ -147,23 +220,6 @@ export async function PracticeScreen(ctx, query){
     const stage = h("div", { class:"col" });
     holder.appendChild(stage);
 
-    const footer = h("div", { class:"footerRow" },
-      h("div", { class:"small", id:"t" }, ""),
-      h("div", { class:"small" }, "")
-    );
-    holder.appendChild(footer);
-
-    function updateClock(){
-      const left = Math.max(0, endAt - Date.now());
-      const sec = Math.ceil(left/1000);
-      const t = footer.querySelector("#t");
-      if (t) t.textContent = sec + "s";
-      if (left <= 0) finish();
-    }
-
-    ticking = setInterval(updateClock, 250);
-    updateClock();
-
     function currentBatch(){
       return batches[batchIndex] || [];
     }
@@ -180,6 +236,38 @@ export async function PracticeScreen(ctx, query){
     function allMastered(){
       return items.every(it => (streakCount.get(it.id) || 0) >= 10);
     }
+
+    function buildSession(){
+      const wasNewIds = [];
+      for (const [id, val] of wasNew.entries()) if (val) wasNewIds.push(id);
+      return {
+        version: SESSION_VERSION,
+        quizId,
+        topicId: topicId || "",
+        mode,
+        stats,
+        orderIds: order.map(it => it.id),
+        batchIndex,
+        roundCount,
+        recentIds: recentIds.slice(0, 3),
+        seenCount: [...seenCount.entries()],
+        streakCount: [...streakCount.entries()],
+        lastKindAt: [...lastKindAt.entries()],
+        wasNewIds
+      };
+    }
+
+    function persistSession(){
+      if (!running || destroyed) return;
+      savePracticeSession(sessionKey, buildSession());
+    }
+
+    saveSessionFn = persistSession;
+    saveTimer = setInterval(persistSession, 5000);
+    onVisibilityChange = () => {
+      if (document.visibilityState === "hidden") persistSession();
+    };
+    document.addEventListener("visibilitychange", onVisibilityChange);
 
     function weightedPool(baseItems){
       const need = baseItems.filter(it => (seenCount.get(it.id) || 0) < 5);
@@ -312,6 +400,7 @@ export async function PracticeScreen(ctx, query){
       while (recentIds.length > 3) recentIds.pop();
 
       // no stage-level feedback
+      persistSession();
     }
 
     function renderPreviewItem(it, onNext){
@@ -341,7 +430,6 @@ export async function PracticeScreen(ctx, query){
 
     async function next(){
       if (destroyed || !running) return;
-      if (Date.now() >= endAt) return finish();
 
       // try current plan slot then scan ahead (never end early just because one type can't render)
       let round = null;
@@ -401,8 +489,12 @@ export async function PracticeScreen(ctx, query){
       if (destroyed || !running) return;
       running = false;
       ctx.state.practiceActive = false;
-      if (ticking) clearInterval(ticking);
-      ticking = null;
+      if (saveTimer) clearInterval(saveTimer);
+      saveTimer = null;
+      if (onVisibilityChange) document.removeEventListener("visibilitychange", onVisibilityChange);
+      onVisibilityChange = null;
+      saveSessionFn = null;
+      clearPracticeSession(sessionKey);
 
       holder.innerHTML = "";
       holder.appendChild(h("div",{class:"card"},

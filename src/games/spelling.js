@@ -27,6 +27,15 @@ function lettersFor(s){
   return out;
 }
 
+const LATIN_DECOYS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+const CYRILLIC_DECOYS = "АБВГДЕЁЖЗІЙКЛМНОПРСТУЎФХЦЧШЫЬЭЮЯ".split("");
+
+function decoysForLetters(letters){
+  const joined = letters.join("");
+  if (/[\u0400-\u04FF]/.test(joined)) return CYRILLIC_DECOYS;
+  return LATIN_DECOYS;
+}
+
 export function pickSpelling(items){
   // Avoid the "copy the same text" anti-exercise:
   // - prefer image -> text
@@ -44,8 +53,8 @@ export function pickSpelling(items){
   if (ans.length < 3) return null;
 
   const tiles = shuffle(ans.slice());
-  // add a few decoys (latin only, minimal)
-  const decoys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+  // add a few decoys (match script of the answer where possible)
+  const decoys = decoysForLetters(ans);
   while (tiles.length < Math.min(18, ans.length + 4)) {
     tiles.push(decoys[Math.floor(Math.random()*decoys.length)]);
   }

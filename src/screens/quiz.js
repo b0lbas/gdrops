@@ -1,4 +1,4 @@
-import { h, btn, modal, toast, pillGroup } from "../ui.js";
+import { h, btn, modal, toast } from "../ui.js";
 import { nav } from "../router.js";
 import { getQuiz, putQuiz, listTopicsByQuiz, calcTopicProgress, listItemsByQuiz } from "../db.js";
 import { exportQuizToFile, importQuizFromFile } from "../exportImport.js";
@@ -7,18 +7,7 @@ export async function QuizScreen(ctx, quizId){
   const quiz = await getQuiz(quizId);
   if (!quiz) return h("div", { class:"wrap" }, h("div",{class:"sub"},"missing"));
 
-  const MIN_KEY = "geodrops:lastMinutes";
-  let minutes = parseInt(localStorage.getItem(MIN_KEY) || "5", 10) || 5;
-  if (![2,5,10].includes(minutes)) minutes = 5;
-
   const topics = await listTopicsByQuiz(quizId);
-
-  const pills = pillGroup([{value:"2",label:"2"},{value:"5",label:"5"},{value:"10",label:"10"}], String(minutes), (v)=>{
-    minutes = parseInt(v, 10);
-    localStorage.setItem(MIN_KEY, String(minutes));
-    // quick UI update
-    [...pills.children].forEach(b=>b.classList.toggle("on", b.textContent===String(minutes)));
-  });
 
   const top = h("div", { class:"topbar" },
     h("div", { class:"row" },
@@ -29,8 +18,7 @@ export async function QuizScreen(ctx, quizId){
     ),
     h("div", { class:"row", style:"justify-content:space-between;" },
       h("div", { class:"row" },
-        pills,
-        btn("Dojo", ()=>nav(`/practice`, { quizId, mode:"dojo", minutes:String(minutes), autostart:"1" })),
+        btn("Dojo", ()=>nav(`/practice`, { quizId, mode:"dojo", autostart:"1" })),
       ),
       h("div", { class:"row" },
         btn("Edit", ()=>nav(`/quiz/${quizId}/edit`)),
@@ -44,7 +32,7 @@ export async function QuizScreen(ctx, quizId){
 
   for (const t of topics){
     const prog = await calcTopicProgress(t.id);
-    const row = h("button", { class:"cardBtn", onclick: ()=>nav(`/practice`, { quizId, topicId: t.id, mode:"topic", minutes:String(minutes), autostart:"1" }) },
+    const row = h("button", { class:"cardBtn", onclick: ()=>nav(`/practice`, { quizId, topicId: t.id, mode:"topic", autostart:"1" }) },
       h("div", { class:"row", style:"justify-content:space-between;" },
         h("div", {},
           h("div", { class:"title" }, t.title || "Topic"),
