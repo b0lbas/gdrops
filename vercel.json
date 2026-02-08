@@ -1,6 +1,6 @@
 {
   "framework": "vite",
   "buildCommand": "npm run build",
-  "installCommand": "npm config set registry https://registry.npmjs.org/ ; npm install",
+  "installCommand": "NPM_CONFIG_REGISTRY=https://registry.npmjs.org/ npm install",
   "outputDirectory": "dist"
 }
