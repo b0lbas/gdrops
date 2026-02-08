@@ -9,6 +9,9 @@ import { pickSpeed, renderSpeed } from "../games/speed.js";
 import { pickFragments, renderFragments } from "../games/fragments.js";
 import { pickTrueFalse, renderTrueFalse } from "../games/truefalse.js";
 import { pickWordGrid, renderWordGrid } from "../games/wordgrid.js";
+import { pickMapName, pickMapFlag, renderMapQuiz } from "../games/mapQuiz.js";
+import { loadMapData, getFeatureForItem } from "../mapData.js";
+import { GAME_TYPES } from "../gameTypes.js";
 
 const SESSION_VERSION = 1;
 
@@ -47,8 +50,130 @@ function shuffle(arr){
   return a;
 }
 
-function pickPlanKind(plan, idx){
-  return plan[idx % plan.length];
+function enabledGameTypes(quiz){
+  const disabled = new Set(Array.isArray(quiz?.disabledTypes) ? quiz.disabledTypes : []);
+  return GAME_TYPES.map(t => t.id).filter(id => !disabled.has(id));
+}
+
+const SINGLE_TYPES = new Set([
+  "mcq_t2t",
+  "mcq_t2i",
+  "mcq_i2t",
+  "mcq_t2p",
+  "fragments",
+  "spell",
+  "wordgrid",
+  "truefalse",
+  "speed",
+  "map_name",
+  "map_flag"
+]);
+
+function normText(s){
+  return (s||"").trim().toLowerCase().replace(/\s+/g, " ");
+}
+
+function letterCount(s){
+  let n = 0;
+  for (const ch of String(s||"")){
+    if (/[\p{L}\p{N}]/u.test(ch)) n += 1;
+  }
+  return n;
+}
+
+function isEligibleForType(it, type, mapData){
+  if (!it) return false;
+  if (type === "mcq_t2t") return !!it.promptText && !!it.answerText && normText(it.promptText) !== normText(it.answerText);
+  if (type === "mcq_i2t") return !!it.promptImage && !!it.answerText;
+  if (type === "mcq_t2i") return !!it.promptText && !!it.answerImage;
+  if (type === "mcq_t2p") return !!it.promptText && !!it.answerText && normText(it.promptText) !== normText(it.answerText);
+  if (type === "spell") return !!it.answerText && (it.promptText || it.promptImage) && letterCount(it.answerText) >= 3;
+  if (type === "fragments") return !!it.promptImage && !!it.answerText && letterCount(it.answerText) >= 1;
+  if (type === "wordgrid") {
+    const useAnswer = it.answerText || it.promptText;
+    const usePrompt = it.promptImage || it.answerImage;
+    return !!useAnswer && !!usePrompt && letterCount(useAnswer) >= 3;
+  }
+  if (type === "truefalse") return (it.promptText || it.promptImage) && (it.answerText || it.answerImage);
+  if (type === "speed") return (it.promptImage && it.answerText) || (it.promptText && it.answerImage);
+  if (type === "map_name") return !!mapData && !!getFeatureForItem(mapData, it) && !!it.answerText;
+  if (type === "map_flag") return !!mapData && !!getFeatureForItem(mapData, it) && !!it.promptImage;
+  if (type === "match") return (it.promptText || it.promptImage) && (it.answerText || it.answerImage);
+  return false;
+}
+
+function serializeBatchState(state){
+  if (!state) return null;
+  return {
+    batchIds: state.batchIds,
+    planIndex: state.planIndex,
+    lastSingleId: state.lastSingleId,
+    remainingByType: [...state.remainingByType.entries()].map(([k, set]) => [k, [...set]])
+  };
+}
+
+function buildBatchState(batchItems, enabledTypes, mapData, plan, resumeState){
+  const batchIds = batchItems.map(it => it.id);
+  const remainingByType = new Map();
+
+  for (const kind of plan){
+    if (!enabledTypes.has(kind)) continue;
+    const eligible = batchItems.filter(it => isEligibleForType(it, kind, mapData));
+    if (kind === "match") {
+      if (eligible.length < 4) continue;
+    } else if (!eligible.length) {
+      continue;
+    }
+    remainingByType.set(kind, new Set(eligible.map(it => it.id)));
+  }
+
+  let planIndex = 0;
+  let lastSingleId = null;
+  if (resumeState && Array.isArray(resumeState.batchIds)) {
+    const sameBatch = resumeState.batchIds.join("|") === batchIds.join("|");
+    if (sameBatch && Array.isArray(resumeState.remainingByType)) {
+      for (const [k, ids] of resumeState.remainingByType) {
+        if (!remainingByType.has(k)) continue;
+        const set = new Set(ids.filter(id => batchIds.includes(id)));
+        remainingByType.set(k, set);
+      }
+      planIndex = Number.isFinite(resumeState.planIndex) ? resumeState.planIndex : 0;
+      lastSingleId = resumeState.lastSingleId || null;
+    }
+  }
+
+  return { batchIds, remainingByType, planIndex, lastSingleId };
+}
+
+function batchComplete(state){
+  for (const set of state.remainingByType.values()){
+    if (set.size) return false;
+  }
+  return true;
+}
+
+function nextKind(state, plan){
+  if (!state) return null;
+  for (let scan = 0; scan < plan.length; scan++){
+    const idx = (state.planIndex + scan) % plan.length;
+    const kind = plan[idx];
+    const remaining = state.remainingByType.get(kind);
+    if (remaining && remaining.size) {
+      state.planIndex = (idx + 1) % plan.length;
+      return kind;
+    }
+  }
+  return null;
+}
+
+function pickSingleItem(state, kind, batchItems){
+  const remaining = state.remainingByType.get(kind);
+  if (!remaining || !remaining.size) return null;
+  const candidates = batchItems.filter(it => remaining.has(it.id));
+  if (!candidates.length) return null;
+  const alt = state.lastSingleId ? candidates.filter(it => it.id !== state.lastSingleId) : candidates;
+  const pool = alt.length ? alt : candidates;
+  return pool[Math.floor(Math.random() * pool.length)];
 }
 
 export async function PracticeScreen(ctx, query){
@@ -127,6 +252,14 @@ export async function PracticeScreen(ctx, query){
     const items = all.filter(it => (it.masteredHits||0) < 10);
     if (!items.length){ toast("done"); running=false; return; }
 
+    const enabledTypes = new Set(enabledGameTypes(quiz));
+    const wantsMap = enabledTypes.has("map_name") || enabledTypes.has("map_flag");
+    const mapData = wantsMap ? await loadMapData(all) : null;
+    if (!mapData) {
+      enabledTypes.delete("map_name");
+      enabledTypes.delete("map_flag");
+    }
+
 
     const stats = resume?.stats
       ? { correct: resume.stats.correct || 0, wrong: resume.stats.wrong || 0, new: resume.stats.new || 0, reviewed: resume.stats.reviewed || 0 }
@@ -175,27 +308,13 @@ export async function PracticeScreen(ctx, query){
     }
 
     let batchIndex = Number.isFinite(resume?.batchIndex) ? resume.batchIndex : 0;
-    let roundCount = Number.isFinite(resume?.roundCount) ? resume.roundCount : 0;
-    const lastKindAt = new Map();
-    if (Array.isArray(resume?.lastKindAt)) {
-      for (const [kind, val] of resume.lastKindAt) lastKindAt.set(kind, Number(val) || 0);
-    }
     recentIds.length = 0;
     if (Array.isArray(resume?.recentIds)) {
       recentIds.push(...resume.recentIds.slice(0, 3));
     }
 
-    function kindAllowed(kind){
-      const last = lastKindAt.get(kind);
-      if (last === undefined) return true;
-      const gap = roundCount - last;
-      if (kind === "truefalse") return gap >= 10;
-      if (kind === "match") return gap >= 3;
-      return gap >= 1;
-    }
-
     // session plan (varied micro-games, no Start between them)
-    const plan = [
+    const basePlan = [
       "mcq_t2t",
       "mcq_t2i",
       "mcq_i2t",
@@ -203,12 +322,22 @@ export async function PracticeScreen(ctx, query){
       "fragments",
       "spell",
       "wordgrid",
+      "map_name",
       "mcq_i2t",
       "wordgrid",
+      "map_flag",
       "match",
       "truefalse",
       "speed"
     ];
+    let plan = basePlan.filter(kind => enabledTypes.has(kind));
+    if (!plan.length) plan = basePlan.slice();
+
+    let batchState = null;
+    function resetBatchState(resumeState=null){
+      batchState = buildBatchState(currentBatch(), enabledTypes, mapData, plan, resumeState);
+    }
+    resetBatchState(resume?.batchState);
 
     holder.innerHTML = "";
     const stage = h("div", { class:"col" });
@@ -221,10 +350,6 @@ export async function PracticeScreen(ctx, query){
     function oldItems(){
       if (batchIndex <= 0) return [];
       return batches.slice(0, batchIndex).flat();
-    }
-
-    function batchNeedsExposure(){
-      return currentBatch().some(it => (seenCount.get(it.id) || 0) < 5);
     }
 
     function allMastered(){
@@ -241,12 +366,11 @@ export async function PracticeScreen(ctx, query){
         stats,
         orderIds: order.map(it => it.id),
         batchIndex,
-        roundCount,
         recentIds: recentIds.slice(0, 3),
         seenCount: [...seenCount.entries()],
         streakCount: [...streakCount.entries()],
-        lastKindAt: [...lastKindAt.entries()],
-        wasNewIds
+        wasNewIds,
+        batchState: serializeBatchState(batchState)
       };
     }
 
@@ -262,100 +386,75 @@ export async function PracticeScreen(ctx, query){
     };
     document.addEventListener("visibilitychange", onVisibilityChange);
 
-    function weightedPool(baseItems){
-      const need = baseItems.filter(it => (seenCount.get(it.id) || 0) < 5);
-      if (!need.length) return baseItems;
-      return [...need, ...need, ...baseItems];
-    }
+    function buildRound(){
+      const batchItems = currentBatch();
+      const optionPool = items;
+      for (let guard=0; guard<plan.length * 2; guard++){
+        const kind = nextKind(batchState, plan);
+        if (!kind) return null;
 
-    function uniqById(list){
-      const out = [];
-      const seen = new Set();
-      for (const it of list){
-        if (seen.has(it.id)) continue;
-        seen.add(it.id);
-        out.push(it);
-      }
-      return out;
-    }
+        if (kind === "match"){
+          const eligible = batchItems.filter(it => isEligibleForType(it, kind, mapData));
+          if (eligible.length < 4) {
+            const set = batchState.remainingByType.get(kind);
+            if (set) set.clear();
+            continue;
+          }
+          const mix = shuffle(eligible).slice(0, 4);
+          const q = pickMatch(mix, { count: 4 });
+          if (!q) {
+            const set = batchState.remainingByType.get(kind);
+            if (set) set.clear();
+            continue;
+          }
+          return { kind:"match", q, mode:"multi" };
+        }
 
-    function pickFew(itemsList, n){
-      const sorted = itemsList.slice().sort((a,b)=>(seenCount.get(a.id)||0)-(seenCount.get(b.id)||0));
-      return shuffle(sorted.slice(0, Math.min(n, sorted.length)));
-    }
+        const item = pickSingleItem(batchState, kind, batchItems);
+        if (!item) {
+          const set = batchState.remainingByType.get(kind);
+          if (set) set.clear();
+          continue;
+        }
 
-    function matchItems(){
-      const cur = currentBatch();
-      const old = oldItems();
-      const mix = [];
-      if (cur.length) mix.push(...pickFew(cur, Math.min(2, cur.length)));
-      if (old.length) mix.push(...pickFew(old, Math.min(2, old.length)));
+        let q = null;
+        if (kind === "speed"){
+          q = pickSpeed(optionPool, { correctPool: [item], optionPool });
+          if (q) return { kind:"speed", q, mode:"single", itemId: item.id };
+        } else if (kind === "mcq_t2t"){
+          q = pickMcq(optionPool, "textToText", { correctPool: [item], optionPool });
+          if (q) return { kind, q, mode:"single", itemId: item.id };
+        } else if (kind === "mcq_i2t"){
+          q = pickMcq(optionPool, "imageToText", { correctPool: [item], optionPool });
+          if (q) return { kind, q, mode:"single", itemId: item.id };
+        } else if (kind === "mcq_t2i"){
+          q = pickMcq(optionPool, "textToImage", { correctPool: [item], optionPool });
+          if (q) return { kind, q, mode:"single", itemId: item.id };
+        } else if (kind === "mcq_t2p"){
+          q = pickMcq(optionPool, "textToPrompt", { correctPool: [item], optionPool });
+          if (q) return { kind, q, mode:"single", itemId: item.id };
+        } else if (kind === "truefalse"){
+          q = pickTrueFalse(optionPool, { correctPool: [item], optionPool });
+          if (q) return { kind:"truefalse", q, mode:"single", itemId: item.id };
+        } else if (kind === "spell"){
+          q = pickSpelling([item]);
+          if (q) return { kind:"spell", q, mode:"single", itemId: item.id };
+        } else if (kind === "fragments"){
+          q = pickFragments([item]);
+          if (q) return { kind:"fragments", q, mode:"single", itemId: item.id };
+        } else if (kind === "wordgrid"){
+          q = pickWordGrid([item]);
+          if (q) return { kind:"wordgrid", q, mode:"single", itemId: item.id };
+        } else if (kind === "map_name"){
+          q = pickMapName(optionPool, mapData, { correctPool: [item], optionPool });
+          if (q) return { kind:"map_name", q, mode:"single", itemId: item.id };
+        } else if (kind === "map_flag"){
+          q = pickMapFlag(optionPool, mapData, { correctPool: [item], optionPool });
+          if (q) return { kind:"map_flag", q, mode:"single", itemId: item.id };
+        }
 
-      const all = uniqById([...cur, ...old]);
-      for (const it of all){
-        if (mix.find(x=>x.id===it.id)) continue;
-        mix.push(it);
-        if (mix.length >= 4) break;
-      }
-      if (mix.length < 4) return null;
-      return mix.slice(0,4);
-    }
-
-    function baseItemsForRound(){
-      const cur = currentBatch();
-      const old = oldItems();
-      if (!old.length || batchIndex === 0) return cur;
-      const useOld = Math.random() < 0.2;
-      return useOld ? old : cur;
-    }
-
-    function pickRound(kind){
-      const recentSet = new Set(recentIds);
-      const base = baseItemsForRound();
-      const baseNoRecent = base.filter(it => !recentSet.has(it.id));
-      const useBase = baseNoRecent.length ? baseNoRecent : base;
-      const cp = weightedPool(useBase);
-      const op = useBase.length ? useBase : items;
-
-      if (kind === "speed"){
-        return { kind:"speed", q: pickSpeed(useBase.length ? useBase : items, { correctPool: cp, optionPool: op }) };
-      }
-      if (kind === "mcq_t2t"){
-        const q = pickMcq(useBase.length ? useBase : items, "textToText", { correctPool: cp, optionPool: op });
-        return { kind:"mcq", q };
-      }
-      if (kind === "mcq_i2t"){
-        const q = pickMcq(useBase.length ? useBase : items, "imageToText", { correctPool: cp, optionPool: op });
-        return { kind:"mcq", q };
-      }
-      if (kind === "mcq_t2i"){
-        const q = pickMcq(useBase.length ? useBase : items, "textToImage", { correctPool: cp, optionPool: op });
-        return { kind:"mcq", q };
-      }
-      if (kind === "mcq_t2p"){
-        const q = pickMcq(useBase.length ? useBase : items, "textToPrompt", { correctPool: cp, optionPool: op });
-        return { kind:"mcq", q };
-      }
-      if (kind === "truefalse"){
-        const q = pickTrueFalse(useBase) || pickTrueFalse(items);
-        return { kind:"truefalse", q };
-      }
-      if (kind === "match"){
-        const mix = matchItems();
-        const q = mix ? pickMatch(mix, { count: 4 }) : null;
-        return { kind:"match", q };
-      }
-      if (kind === "spell"){
-        const q = pickSpelling(useBase) || pickSpelling(items);
-        return { kind:"spell", q };
-      }
-      if (kind === "fragments"){
-        const q = pickFragments(useBase) || pickFragments(items);
-        return { kind:"fragments", q };
-      }
-      if (kind === "wordgrid"){
-        const q = pickWordGrid(useBase) || pickWordGrid(items);
-        return { kind:"wordgrid", q };
+        const set = batchState.remainingByType.get(kind);
+        if (set) set.delete(item.id);
       }
       return null;
     }
@@ -424,55 +523,44 @@ export async function PracticeScreen(ctx, query){
     async function next(){
       if (destroyed || !running) return;
 
-      // try current plan slot then scan ahead (never end early just because one type can't render)
-      let round = null;
-      for (let scan=0; scan<plan.length; scan++){
-        const kind = pickPlanKind(plan, roundCount + scan);
-        if (!kindAllowed(kind)) continue;
-        const r = pickRound(kind);
-        if (r && r.q){ round = r; break; }
-      }
+      const round = buildRound();
+      if (!round || !round.q) return finish();
 
-      if (!round){
-        // last fallback: try any mcq
-        const recentSet = new Set(recentIds);
-        const base = baseItemsForRound();
-        const baseNoRecent = base.filter(it => !recentSet.has(it.id));
-        const useBase = baseNoRecent.length ? baseNoRecent : base;
-        const cp = weightedPool(useBase);
-        const op = useBase.length ? useBase : items;
-
-        const q = pickMcq(useBase.length ? useBase : items, "textToText", { correctPool: cp, optionPool: op }) ||
-                  pickMcq(useBase.length ? useBase : items, "textToPrompt", { correctPool: cp, optionPool: op }) ||
-                  pickMcq(useBase.length ? useBase : items, "imageToText", { correctPool: cp, optionPool: op }) ||
-                  pickMcq(useBase.length ? useBase : items, "textToImage", { correctPool: cp, optionPool: op });
-        if (q) round = { kind:"mcq", q };
-      }
-
-      if (!round) return finish();
-
-      roundCount += 1;
-      lastKindAt.set(round.kind, roundCount);
       stage.innerHTML = "";
 
       const onDone = async (res)=>{
         await applyResult(res);
         if (destroyed || !running) return;
+
+        if (round.mode === "single"){
+          const set = batchState.remainingByType.get(round.kind);
+          if (set) set.delete(round.itemId);
+          batchState.lastSingleId = round.itemId;
+        } else if (round.mode === "multi"){
+          const set = batchState.remainingByType.get(round.kind);
+          if (set) set.clear();
+        }
+
         if (allMastered()) return finish();
-        if (!batchNeedsExposure() && batchIndex < batches.length - 1){
-          batchIndex += 1;
-          return showBatchPreview();
+        if (batchComplete(batchState)){
+          if (batchIndex < batches.length - 1){
+            batchIndex += 1;
+            resetBatchState();
+            return showBatchPreview();
+          }
+          return finish();
         }
         setTimeout(()=>next(), 220);
       };
 
       let node = null;
       if (round.kind === "speed") node = renderSpeed(round.q, onDone, 3.5);
-      else if (round.kind === "mcq") node = renderMcq(round.q, onDone);
+      else if (round.kind.startsWith("mcq_")) node = renderMcq(round.q, onDone);
       else if (round.kind === "match") node = renderMatch(round.q, onDone);
       else if (round.kind === "fragments") node = renderFragments(round.q, onDone);
       else if (round.kind === "truefalse") node = renderTrueFalse(round.q, onDone);
       else if (round.kind === "wordgrid") node = renderWordGrid(round.q, onDone);
+      else if (round.kind === "map_name" || round.kind === "map_flag") node = renderMapQuiz(round.q, onDone);
       else node = renderSpelling(round.q, onDone);
 
       stage.appendChild(node);

@@ -47,8 +47,10 @@ function buildQA(it, kind){
   };
 }
 
-export function pickTrueFalse(items){
-  const base = items.filter(it => (it.promptText || it.promptImage) && (it.answerText || it.answerImage));
+export function pickTrueFalse(items, opts=null){
+  const correctPool = opts?.correctPool || items;
+  const optionPool = opts?.optionPool || items;
+  const base = correctPool.filter(it => (it.promptText || it.promptImage) && (it.answerText || it.answerImage));
   if (!base.length) return null;
 
   for (let tries=0; tries<40; tries++){
@@ -63,7 +65,7 @@ export function pickTrueFalse(items){
       return { type:"truefalse", itemId: correct.id, prompt: qa.prompt, answer: qa.answer, isTrue };
     }
 
-    const pool = shuffle(base.filter(it => it.id !== correct.id));
+    const pool = shuffle(optionPool.filter(it => it.id !== correct.id));
     let wrong = null;
     for (const it of pool){
       if (kind === "image_text" && it.answerText) { wrong = it; break; }

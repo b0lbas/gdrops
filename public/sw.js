@@ -51,6 +51,18 @@ self.addEventListener("fetch", (event) => {
       }
     }
 
+    // Always try network first for geojson content
+    if (url.pathname.startsWith("/geojson/")) {
+      try {
+        const fresh = await fetch(req);
+        if (fresh.ok) cache.put(req, fresh.clone());
+        return fresh;
+      } catch {
+        const cachedGeo = await cache.match(req);
+        return cachedGeo || new Response("", { status: 504 });
+      }
+    }
+
     // SPA navigations: network-first for index
     if (req.mode === "navigate") {
       const cachedIndex = await cache.match("/index.html");

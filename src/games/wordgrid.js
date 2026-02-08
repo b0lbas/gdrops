@@ -13,7 +13,7 @@ function lettersOnly(s){
   const t = String(s||"").trim().toUpperCase();
   const out = [];
   for (const ch of t){
-    if (/[A-ZÀ-ÖØ-Ý0-9]/i.test(ch) || /[\u0400-\u04FF]/.test(ch) || /[\u3040-\u30ff\u4e00-\u9fff]/.test(ch) || /[\u0600-\u06FF]/.test(ch)) out.push(ch);
+    if (/[\p{L}\p{N}]/u.test(ch)) out.push(ch);
   }
   return out;
 }

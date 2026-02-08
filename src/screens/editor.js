@@ -1,6 +1,7 @@
 import { h, btn, input, textarea, select, filePicker, readFileAsDataURL, modal, toast, pillGroup } from "../ui.js";
 import { nav } from "../router.js";
 import { getQuiz, putQuiz, touchQuiz, deleteQuiz, listTopicsByQuiz, putTopic, deleteTopic, listItemsByTopic, putItem, deleteItem, genId, defaultSrs } from "../db.js";
+import { GAME_TYPES } from "../gameTypes.js";
 
 export async function EditorScreen(ctx, quizId){
   const quiz = await getQuiz(quizId);
@@ -21,6 +22,29 @@ export async function EditorScreen(ctx, quizId){
         btn("×", ()=>dangerMenu(), "btn danger")
       )
     )
+  );
+
+  const disabledTypes = new Set(Array.isArray(quiz.disabledTypes) ? quiz.disabledTypes : []);
+  const typeRows = GAME_TYPES.map(t => {
+    const inputNode = h("input", {
+      type: "checkbox",
+      checked: !disabledTypes.has(t.id),
+      onchange: async (e) => {
+        if (e.target.checked) disabledTypes.delete(t.id);
+        else disabledTypes.add(t.id);
+        quiz.disabledTypes = Array.from(disabledTypes);
+        await putQuiz(touchQuiz(quiz));
+        ctx.refresh();
+      }
+    });
+    return h("label", { class:"row typeRow" },
+      h("div", { class:"sub" }, t.label),
+      inputNode
+    );
+  });
+  const typeSettings = h("div", { class:"card" },
+    h("div", { class:"sub" }, "Exercises"),
+    h("div", { class:"col", style:"margin-top:8px;" }, typeRows)
   );
 
   const topicList = h("div", { class:"list" });
@@ -247,5 +271,5 @@ export async function EditorScreen(ctx, quizId){
     document.body.appendChild(m.back);
   }
 
-  return h("div", { class:"wrap" }, top, topicList, h("hr"), itemsWrap);
+  return h("div", { class:"wrap" }, top, typeSettings, topicList, h("hr"), itemsWrap);
 }
