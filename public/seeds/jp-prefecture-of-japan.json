@@ -162,7 +162,7 @@
                       "answerText":  "Hyōgo",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hyogo%20Prefecture.svg",
                       "altAnswers":  [
-                                         "hyōgo"
+                                         "hy�go"
                                      ],
                       "tags":  {
                                    "country":  "JP",
@@ -250,23 +250,10 @@
                       "imageSource":  "flag"
                   },
                   {
-                      "answerText":  "Kioto",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kyoto%20Prefecture.svg",
-                      "altAnswers":  [
-                                         "kioto"
-                                     ],
-                      "tags":  {
-                                   "country":  "JP",
-                                   "subdivisionType":  "prefecture of Japan",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
                       "answerText":  "Kōchi",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kochi%20Prefecture.svg",
                       "altAnswers":  [
-                                         "kōchi"
+                                         "k�chi"
                                      ],
                       "tags":  {
                                    "country":  "JP",
@@ -280,6 +267,19 @@
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kumamoto%20Prefecture.svg",
                       "altAnswers":  [
                                          "kumamoto"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Kyoto",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kyoto%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "kyoto"
                                      ],
                       "tags":  {
                                    "country":  "JP",
@@ -523,6 +523,19 @@
                       "imageSource":  "flag"
                   },
                   {
+                      "answerText":  "Tokyo",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokyo%20Metropolis.svg",
+                      "altAnswers":  [
+                                         "tokyo"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
                       "answerText":  "Tottori",
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tottori%20Prefecture.svg",
                       "altAnswers":  [
@@ -592,19 +605,6 @@
                       "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yamanashi%20Prefecture.svg",
                       "altAnswers":  [
                                          "yamanashi"
-                                     ],
-                      "tags":  {
-                                   "country":  "JP",
-                                   "subdivisionType":  "prefecture of Japan",
-                                   "script":  "latin"
-                               },
-                      "imageSource":  "flag"
-                  },
-                  {
-                      "answerText":  "Tokio",
-                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokyo%20Metropolis.svg",
-                      "altAnswers":  [
-                                         "tokio"
                                      ],
                       "tags":  {
                                    "country":  "JP",

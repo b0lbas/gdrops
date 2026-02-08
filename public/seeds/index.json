@@ -2,6 +2,8 @@
   "files": [
     "seeds/spain-provinces.json",
     "seeds/japan-prefecture-of-japan.json",
-    "seeds/us-u-s-state.json"
+    "seeds/us-u-s-state.json",
+    "seeds/jp-prefecture-of-japan.json",
+    "seeds/by-district-of-belarus.json"
   ]
 }

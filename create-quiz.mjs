@@ -21,7 +21,7 @@ const RETRIES = Number(process.env.WDQS_RETRIES ?? 4);
 const BACKOFF_BASE_MS = Number(process.env.WDQS_BACKOFF_BASE_MS ?? 1000);
 const MAX_BACKOFF_MS = Number(process.env.WDQS_MAX_BACKOFF_MS ?? 15_000);
 const MAX_TYPES_SHOWN = Number(process.env.WDQS_TYPES_SHOWN ?? 50);
-const LANGS = normalizeLangs(process.env.WDQS_LANGS ?? "es,en");
+const LANGS = normalizeLangs(process.env.WDQS_LANGS ?? "en");
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 

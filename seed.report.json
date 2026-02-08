@@ -1,259 +1,599 @@
 {
-  "country": "United States",
-  "type": "U.S. state",
+  "country": "Belarus",
+  "type": "district of Belarus",
   "strategyTypes": "p150",
   "strategyItems": "p150",
-  "total": 50,
+  "total": 118,
   "missing": 0,
   "report": [
     {
-      "name": "California",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20California.svg",
+      "name": "Liepieĺ District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lepiel%2C%20Belarus.svg",
       "source": "flag"
     },
     {
-      "name": "Alabama",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alabama.svg",
+      "name": "Žytkavičy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%BDytkavi%C4%8Dy.svg",
       "source": "flag"
     },
     {
-      "name": "Maine",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maine.svg",
+      "name": "Voranava district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Woron%C3%B3w%20flag.jpg",
       "source": "flag"
     },
     {
-      "name": "Nuevo Hampshire",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Hampshire.svg",
+      "name": "Vietka District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vietka%2C%20Belarus.svg",
       "source": "flag"
     },
     {
-      "name": "Massachusetts",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Massachusetts.svg",
+      "name": "Vierchniadzvinsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drysa%20and%20Drysa%20rajon.svg",
       "source": "flag"
     },
     {
-      "name": "Connecticut",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Connecticut.svg",
+      "name": "Iŭje District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20I%C5%ADje.svg",
       "source": "flag"
     },
     {
-      "name": "Hawái",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hawaii.svg",
+      "name": "Bychaŭ District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bycha%C5%AD%2C%20Belarus.svg",
       "source": "flag"
     },
     {
-      "name": "Alaska",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alaska.svg",
+      "name": "Biaroza District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Biaroza-Kartuskaja.svg",
       "source": "flag"
     },
     {
-      "name": "Florida",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Florida.svg",
+      "name": "Pietrykaŭ District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pietryka%C5%AD.svg",
       "source": "flag"
     },
     {
-      "name": "Arizona",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Arizona.svg",
+      "name": "Kličaŭ District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kli%C4%8Da%C5%AD.svg",
       "source": "flag"
     },
     {
-      "name": "Oregón",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oregon.svg",
+      "name": "Malaryta district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Malaryta.png",
+      "source": "coat"
+    },
+    {
+      "name": "Čačersk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ca%C4%8Dersk%2C%20Belarus.svg",
       "source": "flag"
     },
     {
-      "name": "Utah",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Utah.svg",
+      "name": "Drybin district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drybin%2C%20Belarus.svg",
       "source": "flag"
     },
     {
-      "name": "Míchigan",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Michigan.svg",
+      "name": "Krasnapollie District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Krasnapolle%2C%20Belarus.jpg",
       "source": "flag"
     },
     {
-      "name": "Illinois",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Illinois.svg",
+      "name": "Naroŭlia District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Naro%C5%ADla%2C%20Belarus.svg",
+      "source": "coat"
+    },
+    {
+      "name": "Kobryn district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kobryn.svg",
       "source": "flag"
     },
     {
-      "name": "Dakota del Norte",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Dakota.svg",
+      "name": "Lelchytsy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lel%C4%8Dycy.png",
       "source": "flag"
     },
     {
-      "name": "Dakota del Sur",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Dakota.svg",
+      "name": "Gomel District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Homiel%2C%20Belarus.svg",
+      "source": "coat"
+    },
+    {
+      "name": "Kamieniec District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20of%20Kamieniec%20District.svg",
       "source": "flag"
     },
     {
-      "name": "Montana",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montana.svg",
+      "name": "Talačyn District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tala%C4%8Dyn%20and%20Tala%C4%8Dyn%20Rajon.svg",
       "source": "flag"
     },
     {
-      "name": "Wyoming",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wyoming.svg",
+      "name": "Orsha District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Or%C5%A1a.svg",
       "source": "flag"
     },
     {
-      "name": "Idaho",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Idaho.svg",
+      "name": "Škłow District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shklo%C5%AD.png",
       "source": "flag"
     },
     {
-      "name": "Washington",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Washington.svg",
+      "name": "Kasciukovičy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ka%C5%9Bciukovi%C4%8Dy.png",
       "source": "flag"
     },
     {
-      "name": "Nevada",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nevada.svg",
+      "name": "Syanno District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sianno.svg",
       "source": "flag"
     },
     {
-      "name": "Colorado",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Colorado.svg",
+      "name": "Biešankovičy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bie%C5%A1ankovi%C4%8Dy.svg",
       "source": "flag"
     },
     {
-      "name": "Virginia",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Virginia.svg",
+      "name": "Liozna District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liozna%20District.svg",
       "source": "flag"
     },
     {
-      "name": "Virginia Occidental",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Virginia.svg",
+      "name": "Liachavičy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Liachavi%C4%8Dy%2C%20Belarus.svg",
+      "source": "coat"
+    },
+    {
+      "name": "Polotsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20city%20of%20Polotsk%20Belarus.svg",
       "source": "flag"
     },
     {
-      "name": "Nueva York",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20York.svg",
+      "name": "Braslaŭ District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bras%C5%82a%C5%AD.svg",
       "source": "flag"
     },
     {
-      "name": "Rhode Island",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rhode%20Island.svg",
+      "name": "Hantsavichy district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hantsavichy%20District.svg",
       "source": "flag"
     },
     {
-      "name": "Maryland",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maryland.svg",
+      "name": "Chocimsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chocimsk%2C%20Belarus.svg",
       "source": "flag"
     },
     {
-      "name": "Delaware",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Delaware.svg",
+      "name": "Rečyca District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Re%C4%8Dyca%2C%20Belarus.svg",
       "source": "flag"
     },
     {
-      "name": "Ohio",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ohio.svg",
+      "name": "Vitebsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Viciebsk%20Rajon.svg",
       "source": "flag"
     },
     {
-      "name": "Pensilvania",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pennsylvania.svg",
+      "name": "Žabinka District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%BDabinka.svg",
       "source": "flag"
     },
     {
-      "name": "Nueva Jersey",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Jersey.svg",
+      "name": "Buda-Kašaliova District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Buda-Ka%C5%A1alova.svg",
       "source": "flag"
     },
     {
-      "name": "Indiana",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indiana.svg",
+      "name": "Mstsislaw District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mscisla%C5%AD.png",
       "source": "flag"
     },
     {
-      "name": "Georgia",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20State%20of%20Georgia.svg",
+      "name": "Akciabrski District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Akciabrski.svg",
       "source": "flag"
     },
     {
-      "name": "Texas",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Texas.svg",
+      "name": "Dobruš District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dobru%C5%A1%2C%20Belarus.svg",
       "source": "flag"
     },
     {
-      "name": "Carolina del Norte",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Carolina.svg",
+      "name": "Kalinkavichy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kalinkavi%C4%8Dy.svg",
       "source": "flag"
     },
     {
-      "name": "Carolina del Sur",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Carolina.svg",
+      "name": "Chojniki District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chojniki.svg",
       "source": "flag"
     },
     {
-      "name": "Misisipi",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mississippi.svg",
+      "name": "Žlobin District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zhlobin.jpg",
       "source": "flag"
     },
     {
-      "name": "Tennessee",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tennessee.svg",
+      "name": "Brahin district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bragin.svg",
       "source": "flag"
     },
     {
-      "name": "Nuevo México",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Mexico.svg",
+      "name": "Jeĺsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jelsk.png",
       "source": "flag"
     },
     {
-      "name": "Minnesota",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Minnesota.svg",
+      "name": "Pružany District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pru%C5%BEany.svg",
       "source": "flag"
     },
     {
-      "name": "Wisconsin",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wisconsin.svg",
+      "name": "Pinsk district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pinsk%20District.svg",
       "source": "flag"
     },
     {
-      "name": "Iowa",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iowa.svg",
+      "name": "Stolin district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Stolin%2C%20Belarus.svg",
+      "source": "coat"
+    },
+    {
+      "name": "Ivanava district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jana%C5%AD.svg",
       "source": "flag"
     },
     {
-      "name": "Nebraska",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nebraska.svg",
+      "name": "Ivacevičy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ivacevi%C4%8Dy.svg",
       "source": "flag"
     },
     {
-      "name": "Kansas",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kansas.svg",
+      "name": "Baranavichy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20Baranavi%C4%8Dy.svg",
+      "source": "coat"
+    },
+    {
+      "name": "Luniniec District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%81uniniec.svg",
       "source": "flag"
     },
     {
-      "name": "Misuri",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Missouri.svg",
+      "name": "Brest district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Brest%20District.svg",
+      "source": "coat"
+    },
+    {
+      "name": "Drahičyn District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drahi%C4%8Dyn.svg",
       "source": "flag"
     },
     {
-      "name": "Luisiana",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Louisiana.svg",
+      "name": "Mazyr district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mazyr.svg",
       "source": "flag"
     },
     {
-      "name": "Kentucky",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kentucky.svg",
+      "name": "Lojeŭ District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%81oje%C5%AD.png",
       "source": "flag"
     },
     {
-      "name": "Arkansas",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Arkansas.svg",
+      "name": "Karma district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Karma.svg",
       "source": "flag"
     },
     {
-      "name": "Oklahoma",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oklahoma.svg",
+      "name": "Svietlahorsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Svietlahorsk.svg",
       "source": "flag"
     },
     {
-      "name": "Vermont",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vermont.svg",
+      "name": "Rahachow district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Raha%C4%8Do%C5%AD.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Klimavichy district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Klimavi%C4%8Dy.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Šarkaŭščyna District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0arka%C5%AD%C5%A1%C4%8Dyna.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Kruhlaje District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kruhlaje.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Kryčaŭ District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kry%C4%8Da%C5%AD.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Bialyničy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bia%C5%82yni%C4%8Dy.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Haradok district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Haradok%20and%20Haradok%20Rajon.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Dokšycy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dok%C5%A1ycy%20and%20Dok%C5%A1ycy%20Rajon.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Pastavy district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pastavy.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Čašniki District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ca%C5%A1niki.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Horki district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Horki%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Miory district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miory.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Kiraŭsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Kira%C5%ADsk%2C%20Belarus.png",
+      "source": "coat"
+    },
+    {
+      "name": "Slaŭharad District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20S%C5%82a%C5%ADharad%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Mahilow District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D1%86%D1%8F%D0%B3%20%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E%D1%81%D0%BA%D0%B0%D0%B3%D0%B0%20%D1%80%D0%B0%D1%91%D0%BD%D0%B0.jpg",
+      "source": "flag"
+    },
+    {
+      "name": "Dubroŭna District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dubro%C5%ADna%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Chavusy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chausy.jpg",
+      "source": "flag"
+    },
+    {
+      "name": "Rasony district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rasony.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Čerykaŭ District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ceryka%C5%AD.png",
+      "source": "flag"
+    },
+    {
+      "name": "Hlusk district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20H%C5%82usk.png",
+      "source": "flag"
+    },
+    {
+      "name": "Šumilina District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0umilina.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Asipovičy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Osipovichi%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Babrujsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Babruisk%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Ušačy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20U%C5%A1a%C4%8Dy.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Hlybokaje District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20H%C5%82ybokaje.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Kapyĺ District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kapyl.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Dziaržynsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dziar%C5%BEynsk%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Smaliavičy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Smalavi%C4%8Dy.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Zeĺva District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zelva%20flag.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Lahojsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20%C5%81ahojsk%2C%20Belarus.svg",
+      "source": "coat"
+    },
+    {
+      "name": "Smarhoń District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Smarho%C5%84%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Masty district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Mosty%20flag.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Staryja Darohi District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Staryja%20Darohi.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Minsk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Minsk%20district.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Miadziel District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miadzie%C5%82%20and%20Miadzie%C5%82%20district%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Dziatlava District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dziat%C5%82ava%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Valožyn District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Va%C5%82o%C5%BEyn%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Ašmiany District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20A%C5%A1miany.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Navahrudak District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Navahradak.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Bierastavica District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Brzostowica%20Wielka%20flag.gif",
+      "source": "flag"
+    },
+    {
+      "name": "Kareličy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kareli%C4%8Dy%20official.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Shchuchyn district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0%C4%8Du%C4%8Dyn.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Slonim district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slonim%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Astraviec District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Astraviec.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Vaŭkavysk District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Wo%C5%82kowysk%20flag.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Lida district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lida.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Svislač District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%9Avis%C5%82a%C4%8D.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Grodno District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D1%86%D1%8F%D0%B3%20%D0%93%D1%80%D0%BE%D0%B4%D0%B7%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D0%B3%D0%B0%20%D1%80%D0%B0%D1%91%D0%BD%D0%B0.jpg",
+      "source": "flag"
+    },
+    {
+      "name": "Maladziečna District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maladzechna%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Stoŭbcy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sto%C7%94bcy.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Vileyka District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vialejka.png",
+      "source": "flag"
+    },
+    {
+      "name": "Bierazino District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bieraza%C5%84.png",
+      "source": "flag"
+    },
+    {
+      "name": "Klieck District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kleck%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Niasviž District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Niasvi%C5%BE.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Salihorsk district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Salihorsk.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Sluck District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20S%C5%82ucak.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Puchavičy District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Marjina%20Horka.png",
+      "source": "flag"
+    },
+    {
+      "name": "Lyuban district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Luba%C5%84%2C%20Belarus.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Červień District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Cervie%C5%84%2C%20Belarus.png",
+      "source": "flag"
+    },
+    {
+      "name": "Uzda district",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzda.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Barysaŭ District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Barysa%C5%AD.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Krupki District",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Krupki.png",
       "source": "flag"
     }
   ]

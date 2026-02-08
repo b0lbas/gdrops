@@ -1,4 +1,4 @@
-const CACHE = "geodrops-cache-v2";
+const CACHE = "geodrops-cache-v3";
 const CORE = [
   "/",
   "/index.html",
@@ -14,6 +14,12 @@ self.addEventListener("install", (event) => {
     try { await cache.addAll(CORE.map(u => new Request(u, {cache: "reload"}))); } catch {}
     self.skipWaiting();
   })());
+});
+
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener("activate", (event) => {
@@ -46,7 +52,7 @@ self.addEventListener("fetch", (event) => {
       }
     }
 
-    // SPA navigations: serve cached index
+    // SPA navigations: network-first for index
     if (req.mode === "navigate") {
       const cachedIndex = await cache.match("/index.html");
       try {
@@ -55,6 +61,18 @@ self.addEventListener("fetch", (event) => {
         return fresh;
       } catch {
         return cachedIndex || new Response("offline", {status: 200, headers: {"Content-Type":"text/plain"}});
+      }
+    }
+
+    // Network-first for app assets to avoid stale cache
+    if (url.pathname.endsWith(".js") || url.pathname.endsWith(".css")) {
+      try {
+        const fresh = await fetch(req);
+        if (fresh.ok) cache.put(req, fresh.clone());
+        return fresh;
+      } catch {
+        const cachedAsset = await cache.match(req);
+        return cachedAsset || new Response("", {status: 504});
       }
     }
 
