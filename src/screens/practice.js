@@ -12,8 +12,8 @@ import { pickWordGrid, renderWordGrid } from "../games/wordgrid.js";
 
 const SESSION_VERSION = 1;
 
-function practiceSessionKey(quizId, topicId, mode){
-  return `geodrops:practiceSession:${quizId || ""}:${topicId || ""}:${mode || ""}`;
+function practiceSessionKey(quizId, topicId){
+  return `geodrops:practiceSession:${quizId || ""}:${topicId || ""}`;
 }
 
 function loadPracticeSession(key){
@@ -57,8 +57,7 @@ export async function PracticeScreen(ctx, query){
 
   const quizId = query.get("quizId");
   const topicId = query.get("topicId");
-  const mode = query.get("mode") || "topic";
-  const sessionKey = practiceSessionKey(quizId, topicId || "", mode);
+  const sessionKey = practiceSessionKey(quizId, topicId || "");
 
   const quiz = await getQuiz(quizId);
   if (!quiz) return h("div",{class:"wrap"}, h("div",{class:"sub"},"missing"));
@@ -86,11 +85,10 @@ export async function PracticeScreen(ctx, query){
   ctx.state.practiceStop = stop;
 
   const top = h("div", { class:"topbar" },
-    h("div", { class:"row", style:"justify-content:space-between;align-items:center;" },
-      h("div", { class:"row" },
-        btn("←", ()=>{ stop(); nav(`/quiz/${quizId}`); }, "btn"),
-        h("div", { class:"title" }, mode === "dojo" ? "Dojo" : (topic?.title || "Practice"))
-      )
+    h("div", { class:"row topbarRow", style:"align-items:center;" },
+      btn("←", ()=>{ stop(); nav(`/quiz/${quizId}`); }, "btn"),
+      h("div", { class:"title topbarTitle" }, topic?.title || quiz?.title || "Practice"),
+      h("div", { class:"slotGap" })
     )
   );
 
@@ -123,9 +121,7 @@ export async function PracticeScreen(ctx, query){
     running = true;
     ctx.state.practiceActive = true;
 
-    const all = (mode === "dojo")
-      ? await listItemsByQuiz(quizId)
-      : await listItemsByTopic(topicId);
+    const all = topicId ? await listItemsByTopic(topicId) : await listItemsByQuiz(quizId);
 
     if (!all.length){ toast("empty"); running=false; return; }
 
@@ -244,7 +240,6 @@ export async function PracticeScreen(ctx, query){
         version: SESSION_VERSION,
         quizId,
         topicId: topicId || "",
-        mode,
         stats,
         orderIds: order.map(it => it.id),
         batchIndex,

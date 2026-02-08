@@ -13,14 +13,14 @@ export async function EditorScreen(ctx, quizId){
   state.editorTopicId = selectedTopicId;
 
   const top = h("div", { class:"topbar" },
-    h("div", { class:"row" },
+    h("div", { class:"row topbarRow" },
       btn("←", ()=>nav(`/quiz/${quizId}`), "btn"),
-      h("div", { class:"title" }, "Edit")
-    ),
-    h("div", { class:"row" },
-      btn("Name", ()=>renameQuiz()),
-      btn("Topic", ()=>addTopic()),
-      btn("×", ()=>dangerMenu(), "btn danger")
+      h("div", { class:"title topbarTitle" }, "Edit"),
+      h("div", { class:"row" },
+        btn("Name", ()=>renameQuiz()),
+        btn("Topic", ()=>addTopic()),
+        btn("×", ()=>dangerMenu(), "btn danger")
+      )
     )
   );
 

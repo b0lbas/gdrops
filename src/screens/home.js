@@ -1,18 +1,14 @@
-import { h, btn } from "../ui.js";
-import { listQuizzes, genId, putQuiz, touchQuiz } from "../db.js";
+import { h } from "../ui.js";
+import { listQuizzes } from "../db.js";
 import { nav } from "../router.js";
 
 export async function HomeScreen(ctx){
   const quizzes = await listQuizzes();
 
   const top = h("div", { class:"topbar" },
-    h("div", { class:"title" }, "GeoDrops"),
-    h("div", { class:"row" },
-      btn("New", async ()=>{
-        const id = genId();
-        await putQuiz(touchQuiz({ id, title:"New quiz", createdAt: Date.now(), updatedAt: Date.now() }));
-        nav(`/quiz/${id}`);
-      })
+    h("div", { class:"row topbarRow" },
+      h("div", { class:"title topbarTitle" }, "GeoDrops"),
+      h("div", { class:"slotGap" })
     )
   );
 

@@ -1,6 +1,6 @@
 import { h, btn } from "../ui.js";
 import { nav } from "../router.js";
-import { getQuiz, putQuiz, listTopicsByQuiz, calcTopicProgress, listItemsByQuiz } from "../db.js";
+import { getQuiz, listTopicsByQuiz, calcTopicProgress } from "../db.js";
 
 export async function QuizScreen(ctx, quizId){
   const quiz = await getQuiz(quizId);
@@ -9,16 +9,9 @@ export async function QuizScreen(ctx, quizId){
   const topics = await listTopicsByQuiz(quizId);
 
   const top = h("div", { class:"topbar" },
-    h("div", { class:"row" },
+    h("div", { class:"row topbarRow" },
       btn("←", ()=>nav("/"), "btn"),
-      h("div", {},
-        h("div", { class:"title" }, quiz.title || "Quiz"),
-      )
-    ),
-    h("div", { class:"row", style:"justify-content:space-between;" },
-      h("div", { class:"row" },
-        btn("Dojo", ()=>nav(`/practice`, { quizId, mode:"dojo", autostart:"1" })),
-      ),
+      h("div", { class:"title topbarTitle" }, quiz.title || "Quiz"),
       h("div", { class:"row" },
         btn("Edit", ()=>nav(`/quiz/${quizId}/edit`))
       )
@@ -29,7 +22,7 @@ export async function QuizScreen(ctx, quizId){
 
   for (const t of topics){
     const prog = await calcTopicProgress(t.id);
-    const row = h("button", { class:"cardBtn", onclick: ()=>nav(`/practice`, { quizId, topicId: t.id, mode:"topic", autostart:"1" }) },
+    const row = h("button", { class:"cardBtn", onclick: ()=>nav(`/practice`, { quizId, topicId: t.id, autostart:"1" }) },
       h("div", { class:"row", style:"justify-content:space-between;" },
         h("div", {},
           h("div", { class:"title" }, t.title || "Topic"),
