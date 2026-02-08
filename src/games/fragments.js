@@ -195,7 +195,21 @@ export function renderFragments(q, onDone){
 
   function finish(){
     tilesRow.querySelectorAll("button").forEach(b => b.disabled = true);
-    const got = filled.join(" ").trim().toLowerCase();
+    const words = [];
+    let current = "";
+    let fi = 0;
+    for (const slot of q.slots){
+      if (slot.type === "gap"){
+        if (current) words.push(current);
+        current = "";
+      } else {
+        current += filled[fi] || "";
+        fi += 1;
+      }
+    }
+    if (current) words.push(current);
+
+    const got = words.join(" ").trim().toLowerCase();
     const want = String(q.answerNorm || "").toLowerCase();
     const correct = got === want;
     if (correct){
