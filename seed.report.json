@@ -1,0 +1,245 @@
+{
+  "country": "Japan",
+  "type": "prefecture of Japan",
+  "strategyTypes": "p150",
+  "strategyItems": "p150",
+  "total": 47,
+  "missing": 0,
+  "report": [
+    {
+      "name": "Tokio",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokyo%20Metropolis.svg",
+      "source": "flag"
+    },
+    {
+      "name": "prefectura de Kagoshima",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kagoshima%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Tochigi",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tochigi%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Miyagi",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miyagi%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Iwate",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iwate%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Aomori",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aomori%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Fukushima",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fukushima%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Chiba",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chiba%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Aichi",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aichi%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Akita",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Akita%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Ibaraki",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ibaraki%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Kioto",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kyoto%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Osaka",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Osaka%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "prefectura de Fukuoka",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fukuoka%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Ehime",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ehime%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Yamagata",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yamagata%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "prefectura de Yamaguchi",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yamaguchi%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Kanagawa",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kanagawa%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Nagano",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nagano%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "prefectura de Saitama",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saitama%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Mie",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mie%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Gunma",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gunma%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Hyōgo",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hyogo%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "prefectura de Miyazaki",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miyazaki%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "prefectura de Kumamoto",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kumamoto%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Gifu",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gifu%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Ishikawa",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ishikawa%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Nara",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nara%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Wakayama",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wakayama%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Shizuoka",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shizuoka%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Shiga",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shiga%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Niigata",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Niigata%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Yamanashi",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yamanashi%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Shimane",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shimane%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Toyama",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Toyama%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Okayama",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Okayama%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Fukui",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fukui%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "prefectura de Oita",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oita%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Tottori",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tottori%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Kōchi",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kochi%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "prefectura de Saga",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saga%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Tokushima",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokushima%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Kagawa",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kagawa%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "prefectura de Nagasaki",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nagasaki%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Hiroshima",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hiroshima%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "prefectura de Okinawa",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Okinawa%20Prefecture.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Prefectura de Hokkaido",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hokkaido%20Prefecture.svg",
+      "source": "flag"
+    }
+  ]
+}
