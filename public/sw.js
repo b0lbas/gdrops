@@ -1,0 +1,60 @@
+const CACHE = "geodrops-cache-v1";
+const CORE = [
+  "/",
+  "/index.html",
+  "/styles.css",
+  "/manifest.webmanifest",
+  "/icons/icon-192.png",
+  "/icons/icon-512.png",
+];
+
+self.addEventListener("install", (event) => {
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE);
+    try { await cache.addAll(CORE.map(u => new Request(u, {cache: "reload"}))); } catch {}
+    self.skipWaiting();
+  })());
+});
+
+self.addEventListener("activate", (event) => {
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)));
+    self.clients.claim();
+  })());
+});
+
+self.addEventListener("fetch", (event) => {
+  const req = event.request;
+  if (req.method !== "GET") return;
+
+  event.respondWith((async () => {
+    const url = new URL(req.url);
+    if (url.origin !== location.origin) return fetch(req);
+
+    const cache = await caches.open(CACHE);
+
+    // SPA navigations: serve cached index
+    if (req.mode === "navigate") {
+      const cachedIndex = await cache.match("/index.html");
+      try {
+        const fresh = await fetch(req);
+        if (fresh.ok) cache.put(req, fresh.clone());
+        return fresh;
+      } catch {
+        return cachedIndex || new Response("offline", {status: 200, headers: {"Content-Type":"text/plain"}});
+      }
+    }
+
+    const cached = await cache.match(req);
+    if (cached) return cached;
+
+    try {
+      const fresh = await fetch(req);
+      if (fresh.ok) cache.put(req, fresh.clone());
+      return fresh;
+    } catch {
+      return cached || new Response("", {status: 504});
+    }
+  })());
+});
