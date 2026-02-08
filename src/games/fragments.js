@@ -195,8 +195,8 @@ export function renderFragments(q, onDone){
 
   function finish(){
     tilesRow.querySelectorAll("button").forEach(b => b.disabled = true);
-    const got = filled.join(" ").trim();
-    const want = q.answerNorm;
+    const got = filled.join(" ").trim().toLowerCase();
+    const want = String(q.answerNorm || "").toLowerCase();
     const correct = got === want;
     if (correct){
       [...slots.children].forEach(el => el.classList.add("good"));
