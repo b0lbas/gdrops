@@ -1,0 +1,214 @@
+{
+  "quizTitle": "Germany - federated state of Germany",
+  "topicTitle": "Default",
+  "items": [
+    {
+      "answerText": "Baden-Württemberg",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Baden-W%C3%BCrttemberg.svg",
+      "altAnswers": [
+        "baden-württemberg"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Bavaria",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bavaria%20%28striped%29.svg",
+      "altAnswers": [
+        "bavaria"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Berlin",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Berlin.svg",
+      "altAnswers": [
+        "berlin"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Brandenburg",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Brandenburg.svg",
+      "altAnswers": [
+        "brandenburg"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Bremen",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bremen.svg",
+      "altAnswers": [
+        "bremen"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Hamburg",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hamburg.svg",
+      "altAnswers": [
+        "hamburg"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Hesse",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hesse.svg",
+      "altAnswers": [
+        "hesse"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Lower Saxony",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lower%20Saxony.svg",
+      "altAnswers": [
+        "lower saxony"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Mecklenburg-Vorpommern",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mecklenburg-Western%20Pomerania.svg",
+      "altAnswers": [
+        "mecklenburg-vorpommern"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "North Rhine-Westphalia",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Rhine-Westphalia.svg",
+      "altAnswers": [
+        "north rhine-westphalia"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Rhineland-Palatinate",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rhineland-Palatinate.svg",
+      "altAnswers": [
+        "rhineland-palatinate"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Saarland",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saarland.svg",
+      "altAnswers": [
+        "saarland"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Saxony",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saxony.svg",
+      "altAnswers": [
+        "saxony"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Saxony-Anhalt",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saxony-Anhalt%20%28state%29.svg",
+      "altAnswers": [
+        "saxony-anhalt"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Schleswig-Holstein",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Schleswig-Holstein.svg",
+      "altAnswers": [
+        "schleswig-holstein"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Thuringia",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Thuringia.svg",
+      "altAnswers": [
+        "thuringia"
+      ],
+      "tags": {
+        "country": "DE",
+        "subdivisionType": "federated state of Germany",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    }
+  ]
+}

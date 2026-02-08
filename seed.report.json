@@ -1,599 +1,139 @@
 {
-  "country": "Belarus",
-  "type": "district of Belarus",
+  "country": "Switzerland",
+  "type": "canton of Switzerland",
   "strategyTypes": "p150",
   "strategyItems": "p150",
-  "total": 118,
+  "total": 26,
   "missing": 0,
   "report": [
     {
-      "name": "Лепельскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lepiel%2C%20Belarus.svg",
+      "name": "Canton of Valais",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Valais.svg",
       "source": "flag"
     },
     {
-      "name": "Жыткавіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%BDytkavi%C4%8Dy.svg",
+      "name": "Canton of Berne",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Bern.svg",
       "source": "flag"
     },
     {
-      "name": "Воранаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Woron%C3%B3w%20flag.jpg",
+      "name": "Canton of Geneva",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Geneva.svg",
       "source": "flag"
     },
     {
-      "name": "Веткаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vietka%2C%20Belarus.svg",
+      "name": "Canton of Glarus",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Glarus.svg",
       "source": "flag"
     },
     {
-      "name": "Верхнядзвінскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drysa%20and%20Drysa%20rajon.svg",
+      "name": "Canton of the Grisons",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CHE%20Graub%C3%BCnden%20Flag.svg",
       "source": "flag"
     },
     {
-      "name": "Іўеўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20I%C5%ADje.svg",
+      "name": "Canton of Solothurn",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Solothurn.svg",
       "source": "flag"
     },
     {
-      "name": "Быхаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bycha%C5%AD%2C%20Belarus.svg",
+      "name": "Canton of Zug",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Zug.svg",
       "source": "flag"
     },
     {
-      "name": "Бярозаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Biaroza-Kartuskaja.svg",
+      "name": "Canton of Zürich",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CHE%20Z%C3%BCrich%20Flag.svg",
       "source": "flag"
     },
     {
-      "name": "Петрыкаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pietryka%C5%AD.svg",
+      "name": "Canton of Aargau",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Aargau.svg",
       "source": "flag"
     },
     {
-      "name": "Клічаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kli%C4%8Da%C5%AD.svg",
+      "name": "Canton of Appenzell Ausserrhoden",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Appenzell%20Ausserrhoden.svg",
       "source": "flag"
     },
     {
-      "name": "Маларыцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Malaryta.png",
-      "source": "coat"
-    },
-    {
-      "name": "Чачэрскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ca%C4%8Dersk%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Дрыбінскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drybin%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Краснапольскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Krasnapolle%2C%20Belarus.jpg",
-      "source": "flag"
-    },
-    {
-      "name": "Нараўлянскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Naro%C5%ADla%2C%20Belarus.svg",
-      "source": "coat"
-    },
-    {
-      "name": "Кобрынскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kobryn.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Лельчыцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lel%C4%8Dycy.png",
-      "source": "flag"
-    },
-    {
-      "name": "Гомельскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Homiel%2C%20Belarus.svg",
-      "source": "coat"
-    },
-    {
-      "name": "Камянецкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20of%20Kamieniec%20District.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Талачынскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tala%C4%8Dyn%20and%20Tala%C4%8Dyn%20Rajon.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Аршанскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Or%C5%A1a.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Шклоўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shklo%C5%AD.png",
-      "source": "flag"
-    },
-    {
-      "name": "Касцюковіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ka%C5%9Bciukovi%C4%8Dy.png",
-      "source": "flag"
-    },
-    {
-      "name": "Сенненскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sianno.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Бешанковіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bie%C5%A1ankovi%C4%8Dy.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Лёзненскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liozna%20District.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Ляхавіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Liachavi%C4%8Dy%2C%20Belarus.svg",
-      "source": "coat"
-    },
-    {
-      "name": "Полацкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20city%20of%20Polotsk%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Браслаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bras%C5%82a%C5%AD.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Ганцавіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hantsavichy%20District.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Хоцімскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chocimsk%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Рэчыцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Re%C4%8Dyca%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Віцебскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Viciebsk%20Rajon.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Жабінкаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%BDabinka.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Буда-Кашалёўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Buda-Ka%C5%A1alova.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Мсціслаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mscisla%C5%AD.png",
-      "source": "flag"
-    },
-    {
-      "name": "Акцябрскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Akciabrski.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Добрушскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dobru%C5%A1%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Калінкавіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kalinkavi%C4%8Dy.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Хойніцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chojniki.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Жлобінскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zhlobin.jpg",
-      "source": "flag"
-    },
-    {
-      "name": "Брагінскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bragin.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Ельскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jelsk.png",
-      "source": "flag"
-    },
-    {
-      "name": "Пружанскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pru%C5%BEany.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Пінскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pinsk%20District.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Столінскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Stolin%2C%20Belarus.svg",
-      "source": "coat"
-    },
-    {
-      "name": "Іванаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jana%C5%AD.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Івацэвіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ivacevi%C4%8Dy.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Баранавіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20Baranavi%C4%8Dy.svg",
-      "source": "coat"
-    },
-    {
-      "name": "Лунінецкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%81uniniec.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Брэсцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Brest%20District.svg",
-      "source": "coat"
-    },
-    {
-      "name": "Драгічынскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Drahi%C4%8Dyn.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Мазырскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mazyr.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Лоеўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%81oje%C5%AD.png",
-      "source": "flag"
-    },
-    {
-      "name": "Кармянскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Karma.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Светлагорскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Svietlahorsk.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Рагачоўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Raha%C4%8Do%C5%AD.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Клімавіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Klimavi%C4%8Dy.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Шаркаўшчынскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0arka%C5%AD%C5%A1%C4%8Dyna.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Круглянскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kruhlaje.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Крычаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kry%C4%8Da%C5%AD.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Бялыніцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bia%C5%82yni%C4%8Dy.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Гарадоцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Haradok%20and%20Haradok%20Rajon.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Докшыцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dok%C5%A1ycy%20and%20Dok%C5%A1ycy%20Rajon.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Пастаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pastavy.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Чашніцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ca%C5%A1niki.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Горацкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Horki%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Мёрскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miory.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Кіраўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Kira%C5%ADsk%2C%20Belarus.png",
-      "source": "coat"
-    },
-    {
-      "name": "Слаўгарадскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20S%C5%82a%C5%ADharad%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Магілёўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D1%86%D1%8F%D0%B3%20%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E%D1%81%D0%BA%D0%B0%D0%B3%D0%B0%20%D1%80%D0%B0%D1%91%D0%BD%D0%B0.jpg",
-      "source": "flag"
-    },
-    {
-      "name": "Дубровенскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dubro%C5%ADna%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Чавускі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chausy.jpg",
-      "source": "flag"
-    },
-    {
-      "name": "Расонскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rasony.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Чэрыкаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Ceryka%C5%AD.png",
-      "source": "flag"
-    },
-    {
-      "name": "Глускі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20H%C5%82usk.png",
-      "source": "flag"
-    },
-    {
-      "name": "Шумілінскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0umilina.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Асіповіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Osipovichi%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Бабруйскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Babruisk%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Ушацкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20U%C5%A1a%C4%8Dy.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Глыбоцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20H%C5%82ybokaje.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Капыльскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kapyl.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Дзяржынскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dziar%C5%BEynsk%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Смалявіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Smalavi%C4%8Dy.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Зэльвенскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zelva%20flag.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Лагойскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20%C5%81ahojsk%2C%20Belarus.svg",
-      "source": "coat"
-    },
-    {
-      "name": "Смаргонскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Smarho%C5%84%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Мастоўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Mosty%20flag.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Старадарожскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Staryja%20Darohi.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Мінскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Minsk%20district.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Мядзельскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miadzie%C5%82%20and%20Miadzie%C5%82%20district%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Дзятлаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dziat%C5%82ava%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Валожынскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Va%C5%82o%C5%BEyn%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Ашмянскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20A%C5%A1miany.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Навагрудскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Navahradak.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Бераставіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Brzostowica%20Wielka%20flag.gif",
-      "source": "flag"
-    },
-    {
-      "name": "Карэліцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kareli%C4%8Dy%20official.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Шчучынскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%A0%C4%8Du%C4%8Dyn.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Слонімскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slonim%2C%20Belarus.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Астравецкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Astraviec.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Ваўкавыскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BIA%20Wo%C5%82kowysk%20flag.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Лідскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lida.svg",
-      "source": "flag"
-    },
-    {
-      "name": "Свіслацкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C5%9Avis%C5%82a%C4%8D.svg",
+      "name": "Canton of Appenzell Innerrhoden",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Appenzell%20Innerrhoden.svg",
       "source": "flag"
     },
     {
-      "name": "Гродзенскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D1%86%D1%8F%D0%B3%20%D0%93%D1%80%D0%BE%D0%B4%D0%B7%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D0%B3%D0%B0%20%D1%80%D0%B0%D1%91%D0%BD%D0%B0.jpg",
+      "name": "Canton of Lucerne",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Lucerne.svg",
       "source": "flag"
     },
     {
-      "name": "Маладзечанскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maladzechna%2C%20Belarus.svg",
+      "name": "Canton of Basel-Landschaft",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Basel-Landschaft.svg",
       "source": "flag"
     },
     {
-      "name": "Стаўбцоўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sto%C7%94bcy.svg",
+      "name": "Canton of Basel-Stadt",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Basel.svg",
       "source": "flag"
     },
     {
-      "name": "Вілейскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vialejka.png",
+      "name": "Canton of Uri",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Uri.svg",
       "source": "flag"
     },
     {
-      "name": "Бярэзінскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bieraza%C5%84.png",
+      "name": "Canton of Schwyz",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Schwyz.svg",
       "source": "flag"
     },
     {
-      "name": "Клецкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kleck%2C%20Belarus.svg",
+      "name": "Canton of Obwalden",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Obwalden.svg",
       "source": "flag"
     },
     {
-      "name": "Нясвіжскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Niasvi%C5%BE.svg",
+      "name": "Canton of Nidwalden",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Nidwalden.svg",
       "source": "flag"
     },
     {
-      "name": "Салігорскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Salihorsk.svg",
+      "name": "Canton of Fribourg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Fribourg.svg",
       "source": "flag"
     },
     {
-      "name": "Слуцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20S%C5%82ucak.svg",
+      "name": "Canton of Schaffhausen",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Schaffhausen.svg",
       "source": "flag"
     },
     {
-      "name": "Пухавіцкі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Marjina%20Horka.png",
+      "name": "Canton of Thurgau",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Thurgau.svg",
       "source": "flag"
     },
     {
-      "name": "Любанскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Luba%C5%84%2C%20Belarus.svg",
+      "name": "Canton of Ticino",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CHE%20Ticino%20Flag.svg",
       "source": "flag"
     },
     {
-      "name": "Чэрвеньскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20%C4%8Cervie%C5%84%2C%20Belarus.png",
+      "name": "Canton of Neuchâtel",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Neuch%C3%A2tel.svg",
       "source": "flag"
     },
     {
-      "name": "Уздзенскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzda.svg",
+      "name": "Canton of St. Gallen",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Sankt%20Gallen%202011.svg",
       "source": "flag"
     },
     {
-      "name": "Барысаўскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Barysa%C5%AD.svg",
+      "name": "Canton of Jura",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Jura.svg",
       "source": "flag"
     },
     {
-      "name": "Крупскі раён",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Krupki.png",
+      "name": "Canton of Vaud",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Vaud.svg",
       "source": "flag"
     }
   ]

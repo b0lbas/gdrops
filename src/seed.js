@@ -1,5 +1,25 @@
 import { listQuizzes, genId, putQuiz, putTopic, putItem, touchQuiz, defaultSrs } from "./db.js";
 
+const SEEDED_KEY = "geodrops:seededSeedFiles";
+
+function loadSeededSet(){
+  try {
+    const raw = localStorage.getItem(SEEDED_KEY);
+    if (!raw) return new Set();
+    const arr = JSON.parse(raw);
+    if (!Array.isArray(arr)) return new Set();
+    return new Set(arr.map(v => String(v)));
+  } catch {
+    return new Set();
+  }
+}
+
+function saveSeededSet(set){
+  try {
+    localStorage.setItem(SEEDED_KEY, JSON.stringify([...set]));
+  } catch {}
+}
+
 async function loadSeedQuizzes(){
   try {
     const idxRes = await fetch("/seeds/index.json");
@@ -12,7 +32,7 @@ async function loadSeedQuizzes(){
         const res = await fetch("/" + String(f).replace(/^\/+/, ""));
         if (!res.ok) continue;
         const data = await res.json();
-        if (data && Array.isArray(data.items)) out.push(data);
+        if (data && Array.isArray(data.items)) out.push({ file: String(f), data });
       } catch {}
     }
     return out;
@@ -23,19 +43,32 @@ async function loadSeedQuizzes(){
 
 export async function ensureSeed() {
   const quizzes = await listQuizzes();
-  if (quizzes.length) return;
+  const existingTitles = new Set(quizzes.map(q => (q.title || "").trim().toLowerCase()).filter(Boolean));
+  const seeded = loadSeededSet();
 
   const seeds = await loadSeedQuizzes();
-  const usable = seeds.filter(s => Array.isArray(s.items) && s.items.length);
+  const usable = seeds.filter(s => Array.isArray(s.data?.items) && s.data.items.length);
   if (!usable.length) return;
 
+  let changed = false;
+
   for (const seed of usable){
+    const key = seed.file;
+    if (seeded.has(key)) continue;
+
+    const title = (seed.data.quizTitle || "").trim().toLowerCase();
+    if (title && existingTitles.has(title)) {
+      seeded.add(key);
+      changed = true;
+      continue;
+    }
+
     const quizId = genId();
     const topicId = genId();
 
     await putQuiz(touchQuiz({
       id: quizId,
-      title: seed.quizTitle || "Quiz",
+      title: seed.data.quizTitle || "Quiz",
       createdAt: Date.now(),
       updatedAt: Date.now()
     }));
@@ -43,11 +76,11 @@ export async function ensureSeed() {
     await putTopic({
       id: topicId,
       quizId,
-      title: seed.topicTitle || "Default",
+      title: seed.data.topicTitle || "Default",
       order: 0
     });
 
-    for (const s of seed.items){
+    for (const s of seed.data.items){
       await putItem({
         id: genId(),
         quizId,
@@ -61,5 +94,10 @@ export async function ensureSeed() {
         ...defaultSrs()
       });
     }
+
+    seeded.add(key);
+    changed = true;
   }
+
+  if (changed) saveSeededSet(seeded);
 }

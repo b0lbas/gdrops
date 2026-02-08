@@ -1,7 +1,6 @@
-import { h, btn, modal, toast } from "../ui.js";
+import { h, btn } from "../ui.js";
 import { nav } from "../router.js";
 import { getQuiz, putQuiz, listTopicsByQuiz, calcTopicProgress, listItemsByQuiz } from "../db.js";
-import { exportQuizToFile, importQuizFromFile } from "../exportImport.js";
 
 export async function QuizScreen(ctx, quizId){
   const quiz = await getQuiz(quizId);
@@ -21,9 +20,7 @@ export async function QuizScreen(ctx, quizId){
         btn("Dojo", ()=>nav(`/practice`, { quizId, mode:"dojo", autostart:"1" })),
       ),
       h("div", { class:"row" },
-        btn("Edit", ()=>nav(`/quiz/${quizId}/edit`)),
-        btn("Export", ()=>exportQuizToFile(quizId), "btn"),
-        btn("Import", ()=>openImport(), "btn")
+        btn("Edit", ()=>nav(`/quiz/${quizId}/edit`))
       )
     )
   );
@@ -47,37 +44,6 @@ export async function QuizScreen(ctx, quizId){
 
   if (!topics.length){
     topicList.appendChild(h("div", { class:"card" }, h("div", { class:"sub" }, "no topics")));
-  }
-
-  function openImport(){
-    let m = null;
-    const node = h("div", {},
-      h("div", { class:"row" },
-        h("div", { class:"title" }, "Import"),
-        btn("×", ()=>m.close(), "btn ghost")
-      ),
-      h("div", { class:"col", style:"margin-top:10px;" },
-        h("input", { id:"f", type:"file", class:"input", accept:".json,application/json" }),
-        h("div", { class:"row" },
-          btn("Merge", async ()=>{
-            const inp = node.querySelector("#f");
-            const f = inp.files?.[0];
-            if (!f) return toast("file");
-            await importQuizFromFile(f, "merge");
-            m.close();
-          }),
-          btn("Copy", async ()=>{
-            const inp = node.querySelector("#f");
-            const f = inp.files?.[0];
-            if (!f) return toast("file");
-            await importQuizFromFile(f, "copy");
-            m.close();
-          })
-        )
-      )
-    );
-    m = modal(node);
-    document.body.appendChild(m.back);
   }
 
   return h("div", { class:"wrap" }, top, topicList);

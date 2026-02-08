@@ -1,0 +1,344 @@
+{
+  "quizTitle": "Switzerland - cantons",
+  "topicTitle": "Default",
+  "items": [
+    {
+      "answerText": "Aargau",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Aargau.svg",
+      "altAnswers": [
+        "aargau"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Appenzell Ausserrhoden",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Appenzell%20Ausserrhoden.svg",
+      "altAnswers": [
+        "appenzell ausserrhoden"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Appenzell Innerrhoden",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Appenzell%20Innerrhoden.svg",
+      "altAnswers": [
+        "appenzell innerrhoden"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Basel-Landschaft",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Basel-Landschaft.svg",
+      "altAnswers": [
+        "basel-landschaft"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Basel-Stadt",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Basel.svg",
+      "altAnswers": [
+        "basel-stadt"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Berne",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Bern.svg",
+      "altAnswers": [
+        "berne"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Fribourg",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Fribourg.svg",
+      "altAnswers": [
+        "fribourg"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Geneva",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Geneva.svg",
+      "altAnswers": [
+        "geneva"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Glarus",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Glarus.svg",
+      "altAnswers": [
+        "glarus"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Jura",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Jura.svg",
+      "altAnswers": [
+        "jura"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Lucerne",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Lucerne.svg",
+      "altAnswers": [
+        "lucerne"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Neuchâtel",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Neuch%C3%A2tel.svg",
+      "altAnswers": [
+        "neuchâtel"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Nidwalden",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Nidwalden.svg",
+      "altAnswers": [
+        "nidwalden"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Obwalden",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Obwalden.svg",
+      "altAnswers": [
+        "obwalden"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Schaffhausen",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Schaffhausen.svg",
+      "altAnswers": [
+        "schaffhausen"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Schwyz",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Schwyz.svg",
+      "altAnswers": [
+        "schwyz"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Solothurn",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Solothurn.svg",
+      "altAnswers": [
+        "solothurn"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "St. Gallen",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Sankt%20Gallen%202011.svg",
+      "altAnswers": [
+        "st. gallen"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "the Grisons",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/CHE%20Graub%C3%BCnden%20Flag.svg",
+      "altAnswers": [
+        "the grisons"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Thurgau",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Thurgau.svg",
+      "altAnswers": [
+        "thurgau"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Ticino",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/CHE%20Ticino%20Flag.svg",
+      "altAnswers": [
+        "ticino"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Uri",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Uri.svg",
+      "altAnswers": [
+        "uri"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Valais",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Valais.svg",
+      "altAnswers": [
+        "valais"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Vaud",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Vaud.svg",
+      "altAnswers": [
+        "vaud"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Zug",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canton%20of%20Zug.svg",
+      "altAnswers": [
+        "zug"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Zürich",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/CHE%20Z%C3%BCrich%20Flag.svg",
+      "altAnswers": [
+        "zürich"
+      ],
+      "tags": {
+        "country": "CH",
+        "subdivisionType": "canton of Switzerland",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    }
+  ]
+}

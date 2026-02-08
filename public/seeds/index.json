@@ -4,6 +4,9 @@
     "seeds/japan-prefecture-of-japan.json",
     "seeds/us-u-s-state.json",
     "seeds/jp-prefecture-of-japan.json",
-    "seeds/by-district-of-belarus.json"
+    "seeds/by-district-of-belarus.json",
+    "seeds/my-state-of-malaysia.json",
+    "seeds/de-federated-state-of-germany.json",
+    "seeds/ch-canton-of-switzerland.json"
   ]
 }

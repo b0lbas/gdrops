@@ -3,7 +3,6 @@ import { mount } from "./ui.js";
 import { parseHash, routeMatch } from "./router.js";
 import { initDb, subscribe } from "./db.js";
 import { ensureSeed } from "./seed.js";
-import { exportQuizToFile } from "./exportImport.js";
 
 import { HomeScreen } from "./screens/home.js";
 import { QuizScreen } from "./screens/quiz.js";
@@ -18,10 +17,7 @@ const state = {
 
 const ctx = {
   state,
-  refresh: () => render(),
-  actions: {
-    exportQuiz: exportQuizToFile
-  }
+  refresh: () => render()
 };
 
 async function render(){

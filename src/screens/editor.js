@@ -20,7 +20,6 @@ export async function EditorScreen(ctx, quizId){
     h("div", { class:"row" },
       btn("Name", ()=>renameQuiz()),
       btn("Topic", ()=>addTopic()),
-      btn("Export", ()=>ctx.actions.exportQuiz(quizId), "btn ghost"),
       btn("×", ()=>dangerMenu(), "btn danger")
     )
   );
