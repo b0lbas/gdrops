@@ -79,10 +79,10 @@ export async function ensureSeed() {
       id: genId(),
       quizId,
       topicId,
-      promptText: s.name,
+      promptText: null,
       promptImage: s.flag,
       answerText: s.name,
-      answerImage: s.flag,
+      answerImage: null,
       altAnswers: [s.name.toLowerCase()],
       tags: { country:"ES", subdivisionType:"province", script:"latin" },
       ...defaultSrs()
