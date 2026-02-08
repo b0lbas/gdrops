@@ -20,7 +20,7 @@ const TIMEOUT_MS = Number(process.env.WDQS_TIMEOUT_MS ?? 60_000);
 const RETRIES = Number(process.env.WDQS_RETRIES ?? 4);
 const BACKOFF_BASE_MS = Number(process.env.WDQS_BACKOFF_BASE_MS ?? 1000);
 const MAX_BACKOFF_MS = Number(process.env.WDQS_MAX_BACKOFF_MS ?? 15_000);
-const MAX_TYPES_SHOWN = Number(process.env.WDQS_TYPES_SHOWN ?? 25);
+const MAX_TYPES_SHOWN = Number(process.env.WDQS_TYPES_SHOWN ?? 50);
 const LANGS = normalizeLangs(process.env.WDQS_LANGS ?? "es,en");
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
@@ -441,8 +441,15 @@ async function main() {
       return base || "seed";
     };
 
-    const fileName = `${iso.toLowerCase()}-${slug(typeLabel)}.json`;
-    const seedPath = path.join(seedsDir, fileName);
+    const baseName = `${iso.toLowerCase()}-${slug(typeLabel)}`;
+    let fileName = `${baseName}.json`;
+    let seedPath = path.join(seedsDir, fileName);
+    let n = 2;
+    while (fs.existsSync(seedPath)) {
+      fileName = `${baseName}-${n}.json`;
+      seedPath = path.join(seedsDir, fileName);
+      n += 1;
+    }
 
     ensureDirForFile(seedPath);
 

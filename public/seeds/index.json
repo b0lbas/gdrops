@@ -1,6 +1,7 @@
 {
-    "files":  [
-                  "seeds/spain-provinces.json",
-                  "seeds/japan-prefecture-of-japan.json"
-              ]
+  "files": [
+    "seeds/spain-provinces.json",
+    "seeds/japan-prefecture-of-japan.json",
+    "seeds/us-u-s-state.json"
+  ]
 }

@@ -1,244 +1,259 @@
 {
-  "country": "Japan",
-  "type": "prefecture of Japan",
+  "country": "United States",
+  "type": "U.S. state",
   "strategyTypes": "p150",
   "strategyItems": "p150",
-  "total": 47,
+  "total": 50,
   "missing": 0,
   "report": [
     {
-      "name": "Tokio",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokyo%20Metropolis.svg",
+      "name": "California",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20California.svg",
       "source": "flag"
     },
     {
-      "name": "prefectura de Kagoshima",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kagoshima%20Prefecture.svg",
+      "name": "Alabama",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alabama.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Tochigi",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tochigi%20Prefecture.svg",
+      "name": "Maine",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maine.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Miyagi",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miyagi%20Prefecture.svg",
+      "name": "Nuevo Hampshire",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Hampshire.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Iwate",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iwate%20Prefecture.svg",
+      "name": "Massachusetts",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Massachusetts.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Aomori",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aomori%20Prefecture.svg",
+      "name": "Connecticut",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Connecticut.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Fukushima",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fukushima%20Prefecture.svg",
+      "name": "Hawái",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hawaii.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Chiba",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chiba%20Prefecture.svg",
+      "name": "Alaska",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alaska.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Aichi",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aichi%20Prefecture.svg",
+      "name": "Florida",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Florida.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Akita",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Akita%20Prefecture.svg",
+      "name": "Arizona",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Arizona.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Ibaraki",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ibaraki%20Prefecture.svg",
+      "name": "Oregón",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oregon.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Kioto",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kyoto%20Prefecture.svg",
+      "name": "Utah",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Utah.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Osaka",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Osaka%20Prefecture.svg",
+      "name": "Míchigan",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Michigan.svg",
       "source": "flag"
     },
     {
-      "name": "prefectura de Fukuoka",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fukuoka%20Prefecture.svg",
+      "name": "Illinois",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Illinois.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Ehime",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ehime%20Prefecture.svg",
+      "name": "Dakota del Norte",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Dakota.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Yamagata",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yamagata%20Prefecture.svg",
+      "name": "Dakota del Sur",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Dakota.svg",
       "source": "flag"
     },
     {
-      "name": "prefectura de Yamaguchi",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yamaguchi%20Prefecture.svg",
+      "name": "Montana",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montana.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Kanagawa",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kanagawa%20Prefecture.svg",
+      "name": "Wyoming",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wyoming.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Nagano",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nagano%20Prefecture.svg",
+      "name": "Idaho",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Idaho.svg",
       "source": "flag"
     },
     {
-      "name": "prefectura de Saitama",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saitama%20Prefecture.svg",
+      "name": "Washington",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Washington.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Mie",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mie%20Prefecture.svg",
+      "name": "Nevada",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nevada.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Gunma",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gunma%20Prefecture.svg",
+      "name": "Colorado",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Colorado.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Hyōgo",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hyogo%20Prefecture.svg",
+      "name": "Virginia",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Virginia.svg",
       "source": "flag"
     },
     {
-      "name": "prefectura de Miyazaki",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miyazaki%20Prefecture.svg",
+      "name": "Virginia Occidental",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Virginia.svg",
       "source": "flag"
     },
     {
-      "name": "prefectura de Kumamoto",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kumamoto%20Prefecture.svg",
+      "name": "Nueva York",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20York.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Gifu",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gifu%20Prefecture.svg",
+      "name": "Rhode Island",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rhode%20Island.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Ishikawa",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ishikawa%20Prefecture.svg",
+      "name": "Maryland",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maryland.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Nara",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nara%20Prefecture.svg",
+      "name": "Delaware",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Delaware.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Wakayama",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wakayama%20Prefecture.svg",
+      "name": "Ohio",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ohio.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Shizuoka",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shizuoka%20Prefecture.svg",
+      "name": "Pensilvania",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pennsylvania.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Shiga",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shiga%20Prefecture.svg",
+      "name": "Nueva Jersey",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Jersey.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Niigata",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Niigata%20Prefecture.svg",
+      "name": "Indiana",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indiana.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Yamanashi",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yamanashi%20Prefecture.svg",
+      "name": "Georgia",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20State%20of%20Georgia.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Shimane",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shimane%20Prefecture.svg",
+      "name": "Texas",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Texas.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Toyama",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Toyama%20Prefecture.svg",
+      "name": "Carolina del Norte",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Carolina.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Okayama",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Okayama%20Prefecture.svg",
+      "name": "Carolina del Sur",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Carolina.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Fukui",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fukui%20Prefecture.svg",
+      "name": "Misisipi",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mississippi.svg",
       "source": "flag"
     },
     {
-      "name": "prefectura de Oita",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oita%20Prefecture.svg",
+      "name": "Tennessee",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tennessee.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Tottori",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tottori%20Prefecture.svg",
+      "name": "Nuevo México",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Mexico.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Kōchi",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kochi%20Prefecture.svg",
+      "name": "Minnesota",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Minnesota.svg",
       "source": "flag"
     },
     {
-      "name": "prefectura de Saga",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saga%20Prefecture.svg",
+      "name": "Wisconsin",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wisconsin.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Tokushima",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokushima%20Prefecture.svg",
+      "name": "Iowa",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iowa.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Kagawa",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kagawa%20Prefecture.svg",
+      "name": "Nebraska",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nebraska.svg",
       "source": "flag"
     },
     {
-      "name": "prefectura de Nagasaki",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nagasaki%20Prefecture.svg",
+      "name": "Kansas",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kansas.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Hiroshima",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hiroshima%20Prefecture.svg",
+      "name": "Misuri",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Missouri.svg",
       "source": "flag"
     },
     {
-      "name": "prefectura de Okinawa",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Okinawa%20Prefecture.svg",
+      "name": "Luisiana",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Louisiana.svg",
       "source": "flag"
     },
     {
-      "name": "Prefectura de Hokkaido",
-      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hokkaido%20Prefecture.svg",
+      "name": "Kentucky",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kentucky.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Arkansas",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Arkansas.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Oklahoma",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oklahoma.svg",
+      "source": "flag"
+    },
+    {
+      "name": "Vermont",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vermont.svg",
       "source": "flag"
     }
   ]

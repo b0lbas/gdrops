@@ -1,4 +1,4 @@
-const CACHE = "geodrops-cache-v1";
+const CACHE = "geodrops-cache-v2";
 const CORE = [
   "/",
   "/index.html",
@@ -33,6 +33,18 @@ self.addEventListener("fetch", (event) => {
     if (url.origin !== location.origin) return fetch(req);
 
     const cache = await caches.open(CACHE);
+
+    // Always try network first for seed content
+    if (url.pathname.startsWith("/seeds/")) {
+      try {
+        const fresh = await fetch(req);
+        if (fresh.ok) cache.put(req, fresh.clone());
+        return fresh;
+      } catch {
+        const cachedSeed = await cache.match(req);
+        return cachedSeed || new Response("", { status: 504 });
+      }
+    }
 
     // SPA navigations: serve cached index
     if (req.mode === "navigate") {

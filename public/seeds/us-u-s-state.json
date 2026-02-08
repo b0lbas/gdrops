@@ -1,0 +1,656 @@
+{
+  "quizTitle": "United States - U.S. state",
+  "topicTitle": "Default",
+  "items": [
+    {
+      "answerText": "Alabama",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alabama.svg",
+      "altAnswers": [
+        "alabama"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Alaska",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Alaska.svg",
+      "altAnswers": [
+        "alaska"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Arizona",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Arizona.svg",
+      "altAnswers": [
+        "arizona"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Arkansas",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Arkansas.svg",
+      "altAnswers": [
+        "arkansas"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "California",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20California.svg",
+      "altAnswers": [
+        "california"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Carolina del Norte",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Carolina.svg",
+      "altAnswers": [
+        "carolina del norte"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Carolina del Sur",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Carolina.svg",
+      "altAnswers": [
+        "carolina del sur"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Colorado",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Colorado.svg",
+      "altAnswers": [
+        "colorado"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Connecticut",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Connecticut.svg",
+      "altAnswers": [
+        "connecticut"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Dakota del Norte",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Dakota.svg",
+      "altAnswers": [
+        "dakota del norte"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Dakota del Sur",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Dakota.svg",
+      "altAnswers": [
+        "dakota del sur"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Delaware",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Delaware.svg",
+      "altAnswers": [
+        "delaware"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Florida",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Florida.svg",
+      "altAnswers": [
+        "florida"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Georgia",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20State%20of%20Georgia.svg",
+      "altAnswers": [
+        "georgia"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Hawái",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hawaii.svg",
+      "altAnswers": [
+        "hawái"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Idaho",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Idaho.svg",
+      "altAnswers": [
+        "idaho"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Illinois",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Illinois.svg",
+      "altAnswers": [
+        "illinois"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Indiana",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indiana.svg",
+      "altAnswers": [
+        "indiana"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Iowa",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iowa.svg",
+      "altAnswers": [
+        "iowa"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Kansas",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kansas.svg",
+      "altAnswers": [
+        "kansas"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Kentucky",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kentucky.svg",
+      "altAnswers": [
+        "kentucky"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Luisiana",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Louisiana.svg",
+      "altAnswers": [
+        "luisiana"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Maine",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maine.svg",
+      "altAnswers": [
+        "maine"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Maryland",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maryland.svg",
+      "altAnswers": [
+        "maryland"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Massachusetts",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Massachusetts.svg",
+      "altAnswers": [
+        "massachusetts"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Míchigan",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Michigan.svg",
+      "altAnswers": [
+        "míchigan"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Minnesota",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Minnesota.svg",
+      "altAnswers": [
+        "minnesota"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Misisipi",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mississippi.svg",
+      "altAnswers": [
+        "misisipi"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Misuri",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Missouri.svg",
+      "altAnswers": [
+        "misuri"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Montana",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montana.svg",
+      "altAnswers": [
+        "montana"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Nebraska",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nebraska.svg",
+      "altAnswers": [
+        "nebraska"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Nevada",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nevada.svg",
+      "altAnswers": [
+        "nevada"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Nueva Jersey",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Jersey.svg",
+      "altAnswers": [
+        "nueva jersey"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Nueva York",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20York.svg",
+      "altAnswers": [
+        "nueva york"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Nuevo Hampshire",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Hampshire.svg",
+      "altAnswers": [
+        "nuevo hampshire"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Nuevo México",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Mexico.svg",
+      "altAnswers": [
+        "nuevo méxico"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Ohio",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ohio.svg",
+      "altAnswers": [
+        "ohio"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Oklahoma",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oklahoma.svg",
+      "altAnswers": [
+        "oklahoma"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Oregón",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oregon.svg",
+      "altAnswers": [
+        "oregón"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Pensilvania",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pennsylvania.svg",
+      "altAnswers": [
+        "pensilvania"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Rhode Island",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rhode%20Island.svg",
+      "altAnswers": [
+        "rhode island"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Tennessee",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tennessee.svg",
+      "altAnswers": [
+        "tennessee"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Texas",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Texas.svg",
+      "altAnswers": [
+        "texas"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Utah",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Utah.svg",
+      "altAnswers": [
+        "utah"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Vermont",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vermont.svg",
+      "altAnswers": [
+        "vermont"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Virginia",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Virginia.svg",
+      "altAnswers": [
+        "virginia"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Virginia Occidental",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20West%20Virginia.svg",
+      "altAnswers": [
+        "virginia occidental"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Washington",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Washington.svg",
+      "altAnswers": [
+        "washington"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Wisconsin",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wisconsin.svg",
+      "altAnswers": [
+        "wisconsin"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    },
+    {
+      "answerText": "Wyoming",
+      "promptImage": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wyoming.svg",
+      "altAnswers": [
+        "wyoming"
+      ],
+      "tags": {
+        "country": "US",
+        "subdivisionType": "U.S. state",
+        "script": "latin"
+      },
+      "imageSource": "flag"
+    }
+  ]
+}
