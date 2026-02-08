@@ -5,9 +5,7 @@ import { nav } from "../router.js";
 export async function HomeScreen(ctx){
   const quizzes = await listQuizzes();
 
-  const top = h("div", { class:"topbar" },
-    h("img", { class:"logo", src:"/logo.svg", alt:"GeoDrops" })
-  );
+  const top = h("div", { class:"topbar" });
 
   const list = h("div", { class:"list" },
     quizzes.map(q => h("button", { class:"cardBtn", onclick: ()=>nav(`/quiz/${q.id}`) },
