@@ -1,0 +1,6 @@
+{
+    "files":  [
+                  "seeds/spain-provinces.json",
+                  "seeds/japan-prefecture-of-japan.json"
+              ]
+}

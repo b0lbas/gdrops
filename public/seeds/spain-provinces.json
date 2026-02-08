@@ -1,0 +1,656 @@
+{
+    "quizTitle":  "Spain - provinces",
+    "topicTitle":  "Default",
+    "items":  [
+                  {
+                      "answerText":  "Almeria",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_Almer%C3%ADa_Province.svg/1280px-Flag_Almer%C3%ADa_Province.svg.png",
+                      "altAnswers":  [
+                                         "almeria"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Cadiz",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Flag_C%C3%A1diz_Province.svg/1280px-Flag_C%C3%A1diz_Province.svg.png",
+                      "altAnswers":  [
+                                         "cadiz"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Cordoba",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Provincia_de_C%C3%B3rdoba_-_Bandera.svg/1280px-Provincia_de_C%C3%B3rdoba_-_Bandera.svg.png",
+                      "altAnswers":  [
+                                         "cordoba"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Granada",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bandera_de_la_provincia_de_Granada_%28Espa%C3%B1a%29.svg/1280px-Bandera_de_la_provincia_de_Granada_%28Espa%C3%B1a%29.svg.png",
+                      "altAnswers":  [
+                                         "granada"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Huelva",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Bandera_de_la_Provincia_De_Huelva.svg/1280px-Bandera_de_la_Provincia_De_Huelva.svg.png",
+                      "altAnswers":  [
+                                         "huelva"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Jaen",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Bandera_de_la_provincia_de_Ja%C3%A9n.svg/1280px-Bandera_de_la_provincia_de_Ja%C3%A9n.svg.png",
+                      "altAnswers":  [
+                                         "jaen"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Malaga",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Flag_M%C3%A1laga_Province.svg/1280px-Flag_M%C3%A1laga_Province.svg.png",
+                      "altAnswers":  [
+                                         "malaga"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Seville",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Diputacion_de_Sevilla_Spain.svg/1280px-Flag_of_Diputacion_de_Sevilla_Spain.svg.png",
+                      "altAnswers":  [
+                                         "seville"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Huesca",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Huesca_%28province%29.svg/1280px-Flag_of_Huesca_%28province%29.svg.png",
+                      "altAnswers":  [
+                                         "huesca"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Teruel",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Teruel_%28province%29.svg/1280px-Flag_of_Teruel_%28province%29.svg.png",
+                      "altAnswers":  [
+                                         "teruel"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Zaragoza",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flag_of_Zaragoza_province_%28with_coat_of_arms%29.svg/1280px-Flag_of_Zaragoza_province_%28with_coat_of_arms%29.svg.png",
+                      "altAnswers":  [
+                                         "zaragoza"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Asturias",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Asturias.svg/1280px-Flag_of_Asturias.svg.png",
+                      "altAnswers":  [
+                                         "asturias"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Balearic Islands",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_the_Balearic_Islands.svg/1280px-Flag_of_the_Balearic_Islands.svg.png",
+                      "altAnswers":  [
+                                         "balearic islands"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Alava",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/1280px-Flag_of_%C3%81lava.svg.png",
+                      "altAnswers":  [
+                                         "alava"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Biscay",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/1280px-Bandera_de_Vizcaya.svg.png",
+                      "altAnswers":  [
+                                         "biscay"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Gipuzkoa",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/1280px-Flag_of_Guip%C3%BAzcoa.svg.png",
+                      "altAnswers":  [
+                                         "gipuzkoa"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Las Palmas",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Bandera_Provincial_de_Las_Palmas.svg/1280px-Bandera_Provincial_de_Las_Palmas.svg.png",
+                      "altAnswers":  [
+                                         "las palmas"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Santa Cruz de Tenerife",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Bandera_Provincial_de_Santa_Cruz_de_Tenerife.svg/1280px-Bandera_Provincial_de_Santa_Cruz_de_Tenerife.svg.png",
+                      "altAnswers":  [
+                                         "santa cruz de tenerife"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Cantabria",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Cantabria_%28Official%29.svg/1280px-Flag_of_Cantabria_%28Official%29.svg.png",
+                      "altAnswers":  [
+                                         "cantabria"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Avila",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bandera_de_la_provincia_de_%C3%81vila.svg/1280px-Bandera_de_la_provincia_de_%C3%81vila.svg.png",
+                      "altAnswers":  [
+                                         "avila"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Burgos",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_Burgos_Province.svg/1280px-Flag_Burgos_Province.svg.png",
+                      "altAnswers":  [
+                                         "burgos"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Leon",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Bandera_de_Le%C3%B3n.svg/1280px-Bandera_de_Le%C3%B3n.svg.png",
+                      "altAnswers":  [
+                                         "leon"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Palencia",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Bandera_de_la_provincia_de_Palencia.svg/1280px-Bandera_de_la_provincia_de_Palencia.svg.png",
+                      "altAnswers":  [
+                                         "palencia"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Salamanca",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_la_provincia_de_Salamanca.svg/1280px-Bandera_de_la_provincia_de_Salamanca.svg.png",
+                      "altAnswers":  [
+                                         "salamanca"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Segovia",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_Segovia_province.svg/1280px-Flag_Segovia_province.svg.png",
+                      "altAnswers":  [
+                                         "segovia"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Soria",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_Soria_province.svg/1280px-Flag_Soria_province.svg.png",
+                      "altAnswers":  [
+                                         "soria"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Valladolid",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bandera_de_la_provincia_de_Valladolid.svg/1280px-Bandera_de_la_provincia_de_Valladolid.svg.png",
+                      "altAnswers":  [
+                                         "valladolid"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Zamora",
+                      "promptImage":  "https://www.banderasphonline.com/527-large_default/Array.jpg",
+                      "altAnswers":  [
+                                         "zamora"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Albacete",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Bandera_provincia_Albacete.svg/1280px-Bandera_provincia_Albacete.svg.png",
+                      "altAnswers":  [
+                                         "albacete"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Ciudad Real",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Flag_Ciudad_Real_Province.svg/1280px-Flag_Ciudad_Real_Province.svg.png",
+                      "altAnswers":  [
+                                         "ciudad real"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Cuenca",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_Cuenca_Province.svg/1280px-Flag_Cuenca_Province.svg.png",
+                      "altAnswers":  [
+                                         "cuenca"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Guadalajara",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Flag_Guadalajara_Province.svg/1280px-Flag_Guadalajara_Province.svg.png",
+                      "altAnswers":  [
+                                         "guadalajara"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Toledo",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bandera_antigua_de_la_provincia_de_Toledo.svg/1280px-Bandera_antigua_de_la_provincia_de_Toledo.svg.png",
+                      "altAnswers":  [
+                                         "toledo"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Barcelona",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Barcelona_%28province%29.svg/1280px-Flag_of_Barcelona_%28province%29.svg.png",
+                      "altAnswers":  [
+                                         "barcelona"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Girona",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Bandera_antiga_de_la_provincia_de_Girona.svg/1280px-Bandera_antiga_de_la_provincia_de_Girona.svg.png",
+                      "altAnswers":  [
+                                         "girona"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Lleida",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Bandera_de_la_provincia_de_L%C3%A9rida1.svg/1280px-Bandera_de_la_provincia_de_L%C3%A9rida1.svg.png",
+                      "altAnswers":  [
+                                         "lleida"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Tarragona",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Bandera_actual_de_la_provincia_de_Tarragona_%28alternate%29.svg/1280px-Bandera_actual_de_la_provincia_de_Tarragona_%28alternate%29.svg.png",
+                      "altAnswers":  [
+                                         "tarragona"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Badajoz",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/8/8e/Bandera_y_Escudo_de_la_Provincia_de_Badajoz%2C_Espa%C3%B1a.jpg",
+                      "altAnswers":  [
+                                         "badajoz"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Caceres",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Flag_of_the_province_of_C%C3%A1ceres.svg/1280px-Flag_of_the_province_of_C%C3%A1ceres.svg.png",
+                      "altAnswers":  [
+                                         "caceres"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "A Coruna",
+                      "promptImage":  "https://banderasysoportes.com/wp-content/uploads/provincia-de-a-coru%C3%B1a.png",
+                      "altAnswers":  [
+                                         "a coruna"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Lugo",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Lugo_province.svg/1280px-Flag_of_Lugo_province.svg.png",
+                      "altAnswers":  [
+                                         "lugo"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Ourense",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Provincia_de_Ourense_-_Bandera.svg/1280px-Provincia_de_Ourense_-_Bandera.svg.png",
+                      "altAnswers":  [
+                                         "ourense"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Pontevedra",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_Pontevedra_Province.svg/1280px-Flag_Pontevedra_Province.svg.png",
+                      "altAnswers":  [
+                                         "pontevedra"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "La Rioja",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_La_Rioja_%28with_coat_of_arms%29.svg/1280px-Flag_of_La_Rioja_%28with_coat_of_arms%29.svg.png",
+                      "altAnswers":  [
+                                         "la rioja"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Madrid",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_the_Community_of_Madrid.svg/1280px-Flag_of_the_Community_of_Madrid.svg.png",
+                      "altAnswers":  [
+                                         "madrid"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Murcia",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_Region_of_Murcia.svg/1280px-Flag_of_the_Region_of_Murcia.svg.png",
+                      "altAnswers":  [
+                                         "murcia"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Navarre",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bandera_de_Navarra.svg/1280px-Bandera_de_Navarra.svg.png",
+                      "altAnswers":  [
+                                         "navarre"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Alicante",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Alicante_%28provincia%29.svg/960px-Alicante_%28provincia%29.svg.png",
+                      "altAnswers":  [
+                                         "alicante"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Castellon",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Bandera_de_Castell%C3%B3_de_la_Plana-2.svg/1280px-Bandera_de_Castell%C3%B3_de_la_Plana-2.svg.png",
+                      "altAnswers":  [
+                                         "castellon"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Valencia",
+                      "promptImage":  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Senyera_valenciana_de_l%27Estatut_de_Benic%C3%A0ssim.svg/250px-Senyera_valenciana_de_l%27Estatut_de_Benic%C3%A0ssim.svg.png",
+                      "altAnswers":  [
+                                         "valencia"
+                                     ],
+                      "tags":  {
+                                   "subdivisionType":  "province",
+                                   "script":  "latin",
+                                   "country":  "ES"
+                               },
+                      "imageSource":  "flag"
+                  }
+              ]
+}

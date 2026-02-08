@@ -1,0 +1,617 @@
+{
+    "quizTitle":  "Japan - prefecture of Japan",
+    "topicTitle":  "Default",
+    "items":  [
+                  {
+                      "answerText":  "Aichi",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aichi%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "aichi"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Akita",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Akita%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "akita"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Aomori",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aomori%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "aomori"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Chiba",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chiba%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "chiba"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Ehime",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ehime%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "ehime"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Fukui",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fukui%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "fukui"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Fukuoka",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fukuoka%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "fukuoka"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Fukushima",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fukushima%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "fukushima"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Gifu",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gifu%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "gifu"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Gunma",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gunma%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "gunma"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Hiroshima",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hiroshima%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "hiroshima"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Hokkaido",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hokkaido%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "hokkaido"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Hyōgo",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hyogo%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "hyōgo"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Ibaraki",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ibaraki%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "ibaraki"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Ishikawa",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ishikawa%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "ishikawa"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Iwate",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iwate%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "iwate"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Kagawa",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kagawa%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "kagawa"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Kagoshima",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kagoshima%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "kagoshima"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Kanagawa",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kanagawa%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "kanagawa"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Kioto",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kyoto%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "kioto"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Kōchi",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kochi%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "kōchi"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Kumamoto",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kumamoto%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "kumamoto"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Mie",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mie%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "mie"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Miyagi",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miyagi%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "miyagi"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Miyazaki",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Miyazaki%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "miyazaki"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Nagano",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nagano%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "nagano"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Nagasaki",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nagasaki%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "nagasaki"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Nara",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nara%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "nara"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Niigata",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Niigata%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "niigata"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Oita",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oita%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "oita"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Okayama",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Okayama%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "okayama"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Okinawa",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Okinawa%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "okinawa"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Osaka",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Osaka%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "osaka"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Saga",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saga%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "saga"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Saitama",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saitama%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "saitama"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Shiga",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shiga%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "shiga"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Shimane",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shimane%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "shimane"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Shizuoka",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Shizuoka%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "shizuoka"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Tochigi",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tochigi%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "tochigi"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Tokushima",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokushima%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "tokushima"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Tottori",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tottori%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "tottori"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Toyama",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Toyama%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "toyama"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Wakayama",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wakayama%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "wakayama"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Yamagata",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yamagata%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "yamagata"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Yamaguchi",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yamaguchi%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "yamaguchi"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Yamanashi",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yamanashi%20Prefecture.svg",
+                      "altAnswers":  [
+                                         "yamanashi"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  },
+                  {
+                      "answerText":  "Tokio",
+                      "promptImage":  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokyo%20Metropolis.svg",
+                      "altAnswers":  [
+                                         "tokio"
+                                     ],
+                      "tags":  {
+                                   "country":  "JP",
+                                   "subdivisionType":  "prefecture of Japan",
+                                   "script":  "latin"
+                               },
+                      "imageSource":  "flag"
+                  }
+              ]
+}

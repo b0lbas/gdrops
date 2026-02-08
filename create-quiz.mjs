@@ -432,12 +432,31 @@ async function main() {
       items
     };
 
-    const seedPath = path.join(process.cwd(), "src", "seed.generated.json");
+    const seedsDir = path.join(process.cwd(), "public", "seeds");
     const reportPath = path.join(process.cwd(), "seed.report.json");
+    ensureDirForFile(path.join(seedsDir, "index.json"));
+
+    const slug = (s) => {
+      const base = String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+      return base || "seed";
+    };
+
+    const fileName = `${iso.toLowerCase()}-${slug(typeLabel)}.json`;
+    const seedPath = path.join(seedsDir, fileName);
 
     ensureDirForFile(seedPath);
 
     fs.writeFileSync(seedPath, JSON.stringify(seed, null, 2), "utf8");
+
+    const indexPath = path.join(seedsDir, "index.json");
+    let idx = { files: [] };
+    try {
+      idx = JSON.parse(fs.readFileSync(indexPath, "utf8"));
+    } catch {}
+    const rel = "seeds/" + fileName;
+    const files = Array.isArray(idx.files) ? idx.files : [];
+    if (!files.includes(rel)) files.push(rel);
+    fs.writeFileSync(indexPath, JSON.stringify({ files }, null, 2), "utf8");
     fs.writeFileSync(
       reportPath,
       JSON.stringify(
