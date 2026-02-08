@@ -9,7 +9,6 @@ import { pickSpeed, renderSpeed } from "../games/speed.js";
 import { pickFragments, renderFragments } from "../games/fragments.js";
 import { pickTrueFalse, renderTrueFalse } from "../games/truefalse.js";
 import { pickWordGrid, renderWordGrid } from "../games/wordgrid.js";
-import { pickMapMcq, renderMapMcq, preloadMap } from "../games/mapmcq.js";
 
 function shuffle(arr){
   const a = arr.slice();
@@ -95,7 +94,6 @@ export async function PracticeScreen(ctx, query){
     const items = all.filter(it => (it.masteredHits||0) < 10);
     if (!items.length){ toast("done"); running=false; return; }
 
-    try { await preloadMap(); } catch {}
 
     const endAt = Date.now() + minutes * 60 * 1000;
 
@@ -119,7 +117,6 @@ export async function PracticeScreen(ctx, query){
     let batchIndex = 0;
     let roundCount = 0;
     const lastKindAt = new Map();
-    let mapDoneInBatch = false;
 
     function kindAllowed(kind){
       const last = lastKindAt.get(kind);
@@ -139,7 +136,6 @@ export async function PracticeScreen(ctx, query){
       "fragments",
       "spell",
       "wordgrid",
-      "mapmcq",
       "mcq_i2t",
       "wordgrid",
       "match",
@@ -280,10 +276,6 @@ export async function PracticeScreen(ctx, query){
         const q = pickWordGrid(useBase) || pickWordGrid(items);
         return { kind:"wordgrid", q };
       }
-      if (kind === "mapmcq"){
-        const q = pickMapMcq(useBase, { correctPool: cp, optionPool: op }) || pickMapMcq(items, { correctPool: cp, optionPool: op });
-        return { kind:"mapmcq", q };
-      }
       return null;
     }
 
@@ -332,7 +324,6 @@ export async function PracticeScreen(ctx, query){
 
     function showBatchPreview(){
       const batch = currentBatch();
-      mapDoneInBatch = false;
       let idx = 0;
       const show = ()=>{
         if (destroyed || !running) return;
@@ -354,11 +345,7 @@ export async function PracticeScreen(ctx, query){
 
       // try current plan slot then scan ahead (never end early just because one type can't render)
       let round = null;
-      if (!mapDoneInBatch){
-        const forced = pickRound("mapmcq");
-        if (forced && forced.q) round = forced;
-      }
-      for (let scan=0; scan<plan.length && !round; scan++){
+      for (let scan=0; scan<plan.length; scan++){
         const kind = pickPlanKind(plan, roundCount + scan);
         if (!kindAllowed(kind)) continue;
         const r = pickRound(kind);
@@ -385,7 +372,6 @@ export async function PracticeScreen(ctx, query){
 
       roundCount += 1;
       lastKindAt.set(round.kind, roundCount);
-      if (round.kind === "mapmcq") mapDoneInBatch = true;
       stage.innerHTML = "";
 
       const onDone = async (res)=>{
@@ -406,7 +392,6 @@ export async function PracticeScreen(ctx, query){
       else if (round.kind === "fragments") node = renderFragments(round.q, onDone);
       else if (round.kind === "truefalse") node = renderTrueFalse(round.q, onDone);
       else if (round.kind === "wordgrid") node = renderWordGrid(round.q, onDone);
-      else if (round.kind === "mapmcq") node = renderMapMcq(round.q, onDone);
       else node = renderSpelling(round.q, onDone);
 
       stage.appendChild(node);
