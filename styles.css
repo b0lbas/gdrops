@@ -7,6 +7,10 @@
   --ok:#3cff96;
 }
 *{ box-sizing:border-box; }
+.slotGap{
+  min-width:14px;
+  height:1px;
+}
 html,body{ height:100%; }
 body{
   margin:0;
@@ -209,6 +213,11 @@ hr{ border:0; border-top:1px solid var(--line); margin:16px 0; }
   background:transparent;
   color:var(--fg);
   font-size:16px;
+}
+.tile:disabled{
+  background:#000;
+  color:rgba(255,255,255,.18);
+  border-color:rgba(255,255,255,.08);
 }
 .slotRow{ display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
 .slot{

@@ -10,12 +10,24 @@ function shuffle(arr){
 }
 
 function lettersOnly(s){
-  const t = String(s||"").trim();
+  const t = String(s||"").trim().toLowerCase();
   const out = [];
   for (const ch of t){
     if (/[A-ZÀ-ÖØ-Ý0-9]/i.test(ch) || /[\u0400-\u04FF]/.test(ch) || /[\u3040-\u30ff\u4e00-\u9fff]/.test(ch) || /[\u0600-\u06FF]/.test(ch)) out.push(ch);
   }
   return out;
+}
+
+function splitWords(s){
+  return String(s||"")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+}
+
+function normalizeAnswer(s){
+  const words = splitWords(s).map(w => lettersOnly(w).join(""));
+  return words.filter(Boolean).join(" ");
 }
 
 function splitFragments(letters){
@@ -70,17 +82,43 @@ export function pickFragments(items){
 
   for (let tries=0; tries<30; tries++){
     const item = base[Math.floor(Math.random()*base.length)];
-    const letters = lettersOnly(item.answerText);
-    const parts = splitFragments(letters);
-    if (!parts || parts.length < 2) continue;
+    const words = splitWords(item.answerText);
+    if (!words.length) continue;
+
+    const wordFrags = [];
+    for (const w of words){
+      const letters = lettersOnly(w);
+      if (!letters.length) continue;
+      if (letters.length < 3) wordFrags.push([letters.join("")]);
+      else {
+        const parts = splitFragments(letters);
+        if (!parts || !parts.length) continue;
+        wordFrags.push(parts);
+      }
+    }
+    if (!wordFrags.length) continue;
+
+    const slots = [];
+    for (let i=0; i<wordFrags.length; i++){
+      const fr = wordFrags[i];
+      for (const p of fr) slots.push({ type:"frag", text:p.toLowerCase() });
+      if (i < wordFrags.length - 1) slots.push({ type:"gap" });
+    }
+
+    const parts = slots.filter(s=>s.type==="frag").map(s=>s.text);
+    if (parts.length < 2) continue;
 
     const decoys = [];
     for (const it of shuffle(items)){
       if (!it.answerText || it.id === item.id) continue;
-      const l = lettersOnly(it.answerText);
-      const p = splitFragments(l);
-      if (!p || p.length < 1) continue;
-      decoys.push(...p);
+      const w = splitWords(it.answerText);
+      for (const ww of w){
+        const l = lettersOnly(ww);
+        if (!l.length) continue;
+        const p = (l.length < 3) ? [l.join("")] : (splitFragments(l) || []);
+        if (!p.length) continue;
+        decoys.push(...p.map(x=>x.toLowerCase()));
+      }
       if (decoys.length >= 8) break;
     }
 
@@ -94,6 +132,8 @@ export function pickFragments(items){
       itemId: item.id,
       prompt: { kind: "image", image: item.promptImage },
       answer: item.answerText,
+      answerNorm: normalizeAnswer(item.answerText),
+      slots,
       fragments: parts,
       options: shuffle(finalOptions)
     };
@@ -110,7 +150,9 @@ export function renderFragments(q, onDone){
     h("img", { src:q.prompt.image, alt:"" })
   );
 
-  const slots = h("div", { class:"slotRow" }, q.fragments.map(()=>h("div", { class:"slot" }, "_")));
+  const slots = h("div", { class:"slotRow" }, q.slots.map(s =>
+    s.type === "gap" ? h("div", { class:"slotGap" }, " ") : h("div", { class:"slot" }, "_")
+  ));
   const tilesRow = h("div", { class:"tileRow" });
   const result = h("div", { class:"sub", style:"text-align:center;min-height:18px;" }, "");
 
@@ -124,9 +166,12 @@ export function renderFragments(q, onDone){
   }
 
   function renderSlots(){
+    let fi = 0;
     [...slots.children].forEach((el, i)=>{
-      el.textContent = filled[i] || "_";
-      el.style.color = filled[i] ? "var(--fg)" : "var(--muted)";
+      if (q.slots[i].type === "gap") return;
+      el.textContent = filled[fi] || "_";
+      el.style.color = filled[fi] ? "var(--fg)" : "var(--muted)";
+      fi += 1;
     });
   }
 
@@ -150,9 +195,9 @@ export function renderFragments(q, onDone){
 
   function finish(){
     tilesRow.querySelectorAll("button").forEach(b => b.disabled = true);
-    const got = filled.join("");
-    const want = q.fragments.join("");
-    const correct = got.toLowerCase() === want.toLowerCase();
+    const got = filled.join(" ").trim();
+    const want = q.answerNorm;
+    const correct = got === want;
     if (correct){
       [...slots.children].forEach(el => el.classList.add("good"));
       result.textContent = "Correct";
