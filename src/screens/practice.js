@@ -9,6 +9,7 @@ import { pickSpeed, renderSpeed } from "../games/speed.js";
 import { pickFragments, renderFragments } from "../games/fragments.js";
 import { pickTrueFalse, renderTrueFalse } from "../games/truefalse.js";
 import { pickWordGrid, renderWordGrid } from "../games/wordgrid.js";
+import { pickMapMcq, renderMapMcq, preloadMap } from "../games/mapmcq.js";
 
 function shuffle(arr){
   const a = arr.slice();
@@ -94,6 +95,8 @@ export async function PracticeScreen(ctx, query){
     const items = all.filter(it => (it.masteredHits||0) < 10);
     if (!items.length){ toast("done"); running=false; return; }
 
+    try { await preloadMap(); } catch {}
+
     const endAt = Date.now() + minutes * 60 * 1000;
 
     const stats = { correct:0, wrong:0, new:0, reviewed:0 };
@@ -135,6 +138,7 @@ export async function PracticeScreen(ctx, query){
       "fragments",
       "spell",
       "wordgrid",
+      "mapmcq",
       "mcq_i2t",
       "wordgrid",
       "match",
@@ -275,6 +279,10 @@ export async function PracticeScreen(ctx, query){
         const q = pickWordGrid(useBase) || pickWordGrid(items);
         return { kind:"wordgrid", q };
       }
+      if (kind === "mapmcq"){
+        const q = pickMapMcq(useBase, { correctPool: cp, optionPool: op }) || pickMapMcq(items, { correctPool: cp, optionPool: op });
+        return { kind:"mapmcq", q };
+      }
       return null;
     }
 
@@ -391,6 +399,7 @@ export async function PracticeScreen(ctx, query){
       else if (round.kind === "fragments") node = renderFragments(round.q, onDone);
       else if (round.kind === "truefalse") node = renderTrueFalse(round.q, onDone);
       else if (round.kind === "wordgrid") node = renderWordGrid(round.q, onDone);
+      else if (round.kind === "mapmcq") node = renderMapMcq(round.q, onDone);
       else node = renderSpelling(round.q, onDone);
 
       stage.appendChild(node);

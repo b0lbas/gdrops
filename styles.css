@@ -151,6 +151,27 @@ hr{ border:0; border-top:1px solid var(--line); margin:16px 0; }
   gap:8px;
   touch-action:none;
 }
+.mapWrap{
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:8px;
+  background:#050505;
+}
+.mapSvg{
+  width:100%;
+  height:auto;
+  display:block;
+}
+.mapPath{
+  fill:#0f0f0f;
+  stroke:rgba(255,255,255,.15);
+  stroke-width:1.2;
+}
+.mapPath.active{
+  fill:#1d3f2a;
+  stroke:rgba(60,255,150,.5);
+  stroke-width:1.6;
+}
 .opt{
   border:1px solid var(--line);
   border-radius:12px;
