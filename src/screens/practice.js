@@ -119,6 +119,7 @@ export async function PracticeScreen(ctx, query){
     let batchIndex = 0;
     let roundCount = 0;
     const lastKindAt = new Map();
+    let mapDoneInBatch = false;
 
     function kindAllowed(kind){
       const last = lastKindAt.get(kind);
@@ -331,6 +332,7 @@ export async function PracticeScreen(ctx, query){
 
     function showBatchPreview(){
       const batch = currentBatch();
+      mapDoneInBatch = false;
       let idx = 0;
       const show = ()=>{
         if (destroyed || !running) return;
@@ -352,7 +354,11 @@ export async function PracticeScreen(ctx, query){
 
       // try current plan slot then scan ahead (never end early just because one type can't render)
       let round = null;
-      for (let scan=0; scan<plan.length; scan++){
+      if (!mapDoneInBatch){
+        const forced = pickRound("mapmcq");
+        if (forced && forced.q) round = forced;
+      }
+      for (let scan=0; scan<plan.length && !round; scan++){
         const kind = pickPlanKind(plan, roundCount + scan);
         if (!kindAllowed(kind)) continue;
         const r = pickRound(kind);
@@ -379,6 +385,7 @@ export async function PracticeScreen(ctx, query){
 
       roundCount += 1;
       lastKindAt.set(round.kind, roundCount);
+      if (round.kind === "mapmcq") mapDoneInBatch = true;
       stage.innerHTML = "";
 
       const onDone = async (res)=>{

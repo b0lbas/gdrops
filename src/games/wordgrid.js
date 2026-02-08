@@ -174,10 +174,7 @@ export function renderWordGrid(q, onDone){
   function onEnd(){
     if (!dragging) return;
     dragging = false;
-    if (picked.length === q.letters.length) finish();
-    else if (picked.length){
-      reset();
-    }
+    if (picked.length) finish();
   }
 
   function reset(){
