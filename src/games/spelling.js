@@ -64,8 +64,9 @@ export function pickSpelling(items){
 export function renderSpelling(q, onDone){
   const filled = [];
   const used = new Array(q.tiles.length).fill(false);
+  const isSymbol = q.prompt.kind === "text" && q.prompt.text && q.prompt.text.length <= 5;
 
-  const prompt = h("div", { class:"prompt" },
+  const prompt = h("div", { class: isSymbol ? "prompt symbol" : "prompt" },
     q.prompt.kind==="text" ? q.prompt.text : h("img", { src:q.prompt.image, alt:"" })
   );
 

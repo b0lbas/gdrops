@@ -81,7 +81,8 @@ export function renderMatch(q, onDone){
   );
 
   function renderCell(p, side){
-    const btn = h("button", { class:"opt", onclick: ()=>pick(side, p, btn) },
+    const isSymbol = p.kind === "text" && p.text && p.text.length <= 5;
+    const btn = h("button", { class: isSymbol ? "opt symbol" : "opt", onclick: ()=>pick(side, p, btn) },
       p.kind === "text" ? p.text : h("img", { src:p.image, alt:"" })
     );
     btn.dataset.itemId = p.itemId;

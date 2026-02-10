@@ -27,7 +27,7 @@ async function render(){
 
   // routes
   if (path === "/" || path === ""){
-    node = await HomeScreen(ctx);
+    node = await HomeScreen(ctx, query);
   } else {
     const mQuiz = routeMatch(path, "/quiz/:id");
     const mEdit = routeMatch(path, "/quiz/:id/edit");
@@ -40,7 +40,7 @@ async function render(){
     } else if (path === "/practice"){
       node = await PracticeScreen(ctx, query);
     } else {
-      node = await HomeScreen(ctx);
+      node = await HomeScreen(ctx, query);
     }
   }
 

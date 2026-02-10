@@ -1,13 +1,38 @@
 {
+  "folders": [
+    {
+      "id": "language",
+      "name": "Language",
+      "subfolders": [
+        { "id": "kr", "name": "Korea" }
+      ]
+    },
+    {
+      "id": "divisions",
+      "name": "Divisions",
+      "subfolders": [
+        { "id": "de", "name": "Germany" },
+        { "id": "es", "name": "Spain" },
+        { "id": "us", "name": "USA" },
+        { "id": "jp", "name": "Japan" },
+        { "id": "ch", "name": "Switzerland" },
+        { "id": "pl", "name": "Poland" },
+        { "id": "my", "name": "Malaysia" },
+        { "id": "by", "name": "Belarus" }
+      ]
+    }
+  ],
   "files": [
-    "seeds/spain-provinces.json",
-    "seeds/japan-prefecture-of-japan.json",
-    "seeds/us-u-s-state.json",
-    "seeds/jp-prefecture-of-japan.json",
-    "seeds/by-district-of-belarus.json",
-    "seeds/my-state-of-malaysia.json",
-    "seeds/de-federated-state-of-germany.json",
-    "seeds/ch-canton-of-switzerland.json",
-    "seeds/pl-voivodeship-of-poland.json"
+    { "path": "seeds/kr-hangul-jamo.json", "folder": "language", "subfolder": "kr" },
+    { "path": "seeds/kr-hangul-syllables.json", "folder": "language", "subfolder": "kr" },
+    { "path": "seeds/kr-south-korea-cities.json", "folder": "language", "subfolder": "kr" },
+    { "path": "seeds/de-federated-state-of-germany.json", "folder": "divisions", "subfolder": "de" },
+    { "path": "seeds/spain-provinces.json", "folder": "divisions", "subfolder": "es" },
+    { "path": "seeds/us-u-s-state.json", "folder": "divisions", "subfolder": "us" },
+    { "path": "seeds/jp-prefecture-of-japan.json", "folder": "divisions", "subfolder": "jp" },
+    { "path": "seeds/ch-canton-of-switzerland.json", "folder": "divisions", "subfolder": "ch" },
+    { "path": "seeds/pl-voivodeship-of-poland.json", "folder": "divisions", "subfolder": "pl" },
+    { "path": "seeds/my-state-of-malaysia.json", "folder": "divisions", "subfolder": "my" },
+    { "path": "seeds/by-district-of-belarus.json", "folder": "divisions", "subfolder": "by" }
   ]
 }

@@ -182,13 +182,15 @@ export function pickMcq(items, variant, opts = null){
 }
 
 export function renderMcq(q, onDone){
-  const prompt = h("div", { class:"prompt" },
+  const isSymbol = q.prompt.kind === "text" && q.prompt.text && q.prompt.text.length <= 5;
+  const prompt = h("div", { class: isSymbol ? "prompt symbol" : "prompt" },
     q.prompt.kind === "text" ? q.prompt.text :
     h("img", { src: q.prompt.image, alt:"" })
   );
 
   const opts = h("div", { class:"grid2" }, q.options.map((o) => {
-    const node = h("button", { class:"opt", onclick: ()=>choose(o, node) },
+    const isOptSymbol = o.kind === "text" && o.text && o.text.length <= 5;
+    const node = h("button", { class: isOptSymbol ? "opt symbol" : "opt", onclick: ()=>choose(o, node) },
       o.kind === "text" ? o.text : h("img", { src:o.image, alt:"" })
     );
     return node;

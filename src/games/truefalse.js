@@ -83,11 +83,13 @@ export function pickTrueFalse(items, opts=null){
 }
 
 export function renderTrueFalse(q, onDone){
-  const prompt = h("div", { class:"prompt" },
+  const isPromptSymbol = q.prompt.kind === "text" && q.prompt.text && q.prompt.text.length <= 5;
+  const isAnswerSymbol = q.answer.kind === "text" && q.answer.text && q.answer.text.length <= 5;
+  const prompt = h("div", { class: isPromptSymbol ? "prompt symbol" : "prompt" },
     q.prompt.kind === "text" ? q.prompt.text : h("img", { src:q.prompt.image, alt:"" })
   );
 
-  const answer = h("div", { class:"prompt" },
+  const answer = h("div", { class: isAnswerSymbol ? "prompt symbol" : "prompt" },
     q.answer.kind === "text" ? q.answer.text : h("img", { src:q.answer.image, alt:"" })
   );
 
