@@ -4,7 +4,25 @@
       "id": "language",
       "name": "Language",
       "subfolders": [
-        { "id": "kr", "name": "Korea" }
+        { "id": "kr", "name": "Korea" },
+        { "id": "th", "name": "Thailand" },
+        { 
+          "id": "in", 
+          "name": "India",
+          "children": [
+            { "id": "in-hindi", "name": "Hindi" },
+            { "id": "in-punjabi", "name": "Punjabi" },
+            { "id": "in-gujarati", "name": "Gujarati" },
+            { "id": "in-bengali", "name": "Bengali" },
+            { "id": "in-assamese", "name": "Assamese" },
+            { "id": "in-kannada", "name": "Kannada" },
+            { "id": "in-telugu", "name": "Telugu" },
+            { "id": "in-tamil", "name": "Tamil" },
+            { "id": "in-odia", "name": "Odia" },
+            { "id": "in-malayalam", "name": "Malayalam" },
+            { "id": "in-manipuri", "name": "Manipuri" }
+          ]
+        }
       ]
     },
     {
@@ -26,6 +44,30 @@
     { "path": "seeds/kr-hangul-jamo.json", "folder": "language", "subfolder": "kr" },
     { "path": "seeds/kr-hangul-syllables.json", "folder": "language", "subfolder": "kr" },
     { "path": "seeds/kr-south-korea-cities.json", "folder": "language", "subfolder": "kr" },
+    { "path": "seeds/th-thai-alphabet.json", "folder": "language", "subfolder": "th" },
+    { "path": "seeds/th-thailand-cities.json", "folder": "language", "subfolder": "th" },
+    { "path": "seeds/in-hindi-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-hindi" },
+    { "path": "seeds/in-hindi-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-hindi" },
+    { "path": "seeds/in-punjabi-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-punjabi" },
+    { "path": "seeds/in-punjabi-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-punjabi" },
+    { "path": "seeds/in-gujarati-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-gujarati" },
+    { "path": "seeds/in-gujarati-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-gujarati" },
+    { "path": "seeds/in-bengali-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-bengali" },
+    { "path": "seeds/in-bengali-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-bengali" },
+    { "path": "seeds/in-assamese-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-assamese" },
+    { "path": "seeds/in-assamese-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-assamese" },
+    { "path": "seeds/in-kannada-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-kannada" },
+    { "path": "seeds/in-kannada-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-kannada" },
+    { "path": "seeds/in-telugu-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-telugu" },
+    { "path": "seeds/in-telugu-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-telugu" },
+    { "path": "seeds/in-tamil-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-tamil" },
+    { "path": "seeds/in-tamil-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-tamil" },
+    { "path": "seeds/in-odia-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-odia" },
+    { "path": "seeds/in-odia-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-odia" },
+    { "path": "seeds/in-malayalam-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-malayalam" },
+    { "path": "seeds/in-malayalam-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-malayalam" },
+    { "path": "seeds/in-manipuri-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-manipuri" },
+    { "path": "seeds/in-manipuri-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-manipuri" },
     { "path": "seeds/de-federated-state-of-germany.json", "folder": "divisions", "subfolder": "de" },
     { "path": "seeds/spain-provinces.json", "folder": "divisions", "subfolder": "es" },
     { "path": "seeds/us-u-s-state.json", "folder": "divisions", "subfolder": "us" },

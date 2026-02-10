@@ -211,7 +211,7 @@ export async function PracticeScreen(ctx, query){
 
   const top = h("div", { class:"topbar" },
     h("div", { class:"row", style:"align-items:center;" },
-      btn("←", ()=>{ stop(); nav(`/quiz/${quizId}`); }, "btn")
+      btn("Back", ()=>{ stop(); history.back(); }, "btn ghost")
     )
   );
 

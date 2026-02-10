@@ -1,6 +1,9 @@
-import { listQuizzes, genId, putQuiz, putTopic, putItem, touchQuiz, defaultSrs } from "./db.js";
+import { listQuizzes, genId, putQuiz, putTopic, putItem, touchQuiz, defaultSrs, deleteQuiz } from "./db.js";
 
 const SEEDED_KEY = "geodrops:seededSeedFiles";
+const MIGRATION_KEY = "geodrops:migration:india-subsubfolder";
+const TITLES_VERSION_KEY = "geodrops:titlesVersion";
+const CURRENT_TITLES_VERSION = 2; // Increment this to force re-seeding with new titles
 
 function loadSeededSet(){
   try {
@@ -12,6 +15,56 @@ function loadSeededSet(){
   } catch {
     return new Set();
   }
+}
+
+// Migration: reset seeded quizzes when titles version changes
+async function migrateTitlesVersion() {
+  const storedVersion = parseInt(localStorage.getItem(TITLES_VERSION_KEY) || "0", 10);
+  if (storedVersion >= CURRENT_TITLES_VERSION) return;
+  
+  // Delete all seeded quizzes and reset seeded set to re-import with new titles
+  const quizzes = await listQuizzes();
+  const seeded = loadSeededSet();
+  
+  for (const q of quizzes) {
+    // Only delete quizzes that came from seeds (have folder set)
+    if (q.folder) {
+      await deleteQuiz(q.id);
+    }
+  }
+  
+  // Clear seeded set
+  saveSeededSet(new Set());
+  localStorage.setItem(TITLES_VERSION_KEY, String(CURRENT_TITLES_VERSION));
+}
+
+// Migration: fix old Indian quizzes that have subfolder="in-*" instead of subsubfolder
+async function migrateIndiaQuizzes() {
+  if (localStorage.getItem(MIGRATION_KEY)) return;
+  
+  const quizzes = await listQuizzes();
+  const seeded = loadSeededSet();
+  let changed = false;
+  
+  for (const q of quizzes) {
+    // Old structure: folder="language", subfolder="in-hindi" (should be subfolder="in", subsubfolder="in-hindi")
+    if (q.folder === "language" && q.subfolder && q.subfolder.startsWith("in-") && !q.subsubfolder) {
+      // Delete old quiz so it can be re-seeded with correct structure
+      await deleteQuiz(q.id);
+      // Remove from seeded set so it gets re-created
+      const seedFile = `seeds/${q.subfolder}-alphabet.json`;
+      const seedFile2 = `seeds/${q.subfolder}-cities.json`;
+      seeded.delete(seedFile);
+      seeded.delete(seedFile2);
+      changed = true;
+    }
+  }
+  
+  if (changed) {
+    saveSeededSet(seeded);
+  }
+  
+  localStorage.setItem(MIGRATION_KEY, "done");
 }
 
 function saveSeededSet(set){
@@ -32,11 +85,12 @@ async function loadSeedQuizzes(){
       const path = typeof f === "string" ? f : f.path;
       const folder = typeof f === "object" ? f.folder : null;
       const subfolder = typeof f === "object" ? f.subfolder : null;
+      const subsubfolder = typeof f === "object" ? f.subsubfolder : null;
       try {
         const res = await fetch("/" + String(path).replace(/^\/+/, ""));
         if (!res.ok) continue;
         const data = await res.json();
-        if (data && Array.isArray(data.items)) out.push({ file: String(path), folder, subfolder, data });
+        if (data && Array.isArray(data.items)) out.push({ file: String(path), folder, subfolder, subsubfolder, data });
       } catch {}
     }
     return { folders, seeds: out };
@@ -46,6 +100,10 @@ async function loadSeedQuizzes(){
 }
 
 export async function ensureSeed() {
+  // Run migrations
+  await migrateTitlesVersion();
+  await migrateIndiaQuizzes();
+  
   const quizzes = await listQuizzes();
   const existingTitles = new Set(quizzes.map(q => (q.title || "").trim().toLowerCase()).filter(Boolean));
   const seeded = loadSeededSet();
@@ -82,6 +140,7 @@ export async function ensureSeed() {
       title: seed.data.quizTitle || "Quiz",
       folder: seed.folder || null,
       subfolder: seed.subfolder || null,
+      subsubfolder: seed.subsubfolder || null,
       createdAt: Date.now(),
       updatedAt: Date.now(),
       ...(disabledTypes ? { disabledTypes } : {})

@@ -21,26 +21,30 @@ export async function HomeScreen(ctx, query){
   const quizzes = await listQuizzes();
   const folders = loadFolders();
 
-  // Current navigation state
+  // Current navigation state (3 levels)
   const currentFolder = query.get("folder") || null;
   const currentSubfolder = query.get("subfolder") || null;
+  const currentSubsubfolder = query.get("subsubfolder") || null;
 
   const top = h("div", { class:"topbar" });
 
   // Build breadcrumb
   const breadcrumb = h("div", { class:"row", style:"margin-bottom:8px;" });
   
-  if (currentSubfolder && currentFolder) {
-    // Inside a country - back goes to folder
+  if (currentSubsubfolder && currentSubfolder && currentFolder) {
+    // Inside a language (level 3) - back goes to India
+    breadcrumb.appendChild(h("button", { class:"btn ghost", onclick: ()=>nav("/", { folder: currentFolder, subfolder: currentSubfolder }) }, "Back"));
+  } else if (currentSubfolder && currentFolder) {
+    // Inside a country (level 2) - back goes to folder
     breadcrumb.appendChild(h("button", { class:"btn ghost", onclick: ()=>nav("/", { folder: currentFolder }) }, "Back"));
   } else if (currentFolder) {
-    // Inside a folder - back goes to home
+    // Inside a folder (level 1) - back goes to home
     breadcrumb.appendChild(h("button", { class:"btn ghost", onclick: ()=>nav("/") }, "Back"));
   }
 
   const list = h("div", { class:"list" });
 
-  if (!currentFolder && !currentSubfolder) {
+  if (!currentFolder && !currentSubfolder && !currentSubsubfolder) {
     // Root level - show main folders
     for (const folder of folders) {
       const iconHtml = FOLDER_ICONS[folder.id] || "";
@@ -58,16 +62,13 @@ export async function HomeScreen(ctx, query){
     }
 
     // Show uncategorized quizzes
-    const uncategorized = quizzes.filter(q => !q.folder);
+    const uncategorized = quizzes.filter(q => !q.folder).sort((a,b) => (a.title||'').localeCompare(b.title||''));
     if (uncategorized.length) {
       list.appendChild(h("hr"));
       for (const q of uncategorized) {
         list.appendChild(h("button", { class:"cardBtn", onclick: ()=>nav(`/quiz/${q.id}`) },
           h("div", { class:"row", style:"justify-content:space-between;" },
-            h("div", {},
-              h("div", { class:"title" }, q.title || "Quiz"),
-              h("div", { class:"sub" }, new Date(q.updatedAt||q.createdAt||Date.now()).toLocaleDateString())
-            ),
+            h("div", { class:"title" }, q.title || "Quiz"),
             h("div", { class:"sub" }, "›")
           )
         ));
@@ -90,17 +91,52 @@ export async function HomeScreen(ctx, query){
         ));
       }
     }
-  } else if (currentFolder && currentSubfolder) {
-    // Subfolder level - show quizzes
-    const folderQuizzes = quizzes.filter(q => q.folder === currentFolder && q.subfolder === currentSubfolder);
+  } else if (currentFolder && currentSubfolder && !currentSubsubfolder) {
+    // Subfolder level - check if it has children (nested folders) or quizzes
+    const folderData = folders.find(f => f.id === currentFolder);
+    const subfolderData = folderData?.subfolders?.find(s => s.id === currentSubfolder);
+    
+    if (subfolderData?.children) {
+      // Has nested folders (like India with languages)
+      for (const child of subfolderData.children) {
+        const flag = h("span", { class: `fi fi-${currentSubfolder}`, style: "margin-right:10px;" });
+        list.appendChild(h("button", { class:"cardBtn countryCard", onclick: ()=>nav("/", { folder: currentFolder, subfolder: currentSubfolder, subsubfolder: child.id }) },
+          h("div", { class:"row", style:"justify-content:space-between;align-items:center;" },
+            h("div", { class:"row", style:"align-items:center;" },
+              flag,
+              h("div", { class:"countryName" }, child.name)
+            ),
+            h("div", { class:"sub" }, "›")
+          )
+        ));
+      }
+    } else {
+      // No children - show quizzes directly
+      const folderQuizzes = quizzes.filter(q => q.folder === currentFolder && q.subfolder === currentSubfolder && !q.subsubfolder).sort((a,b) => (a.title||'').localeCompare(b.title||''));
+      for (const q of folderQuizzes) {
+        list.appendChild(h("button", { class:"cardBtn", onclick: ()=>nav(`/quiz/${q.id}`) },
+          h("div", { class:"row", style:"justify-content:space-between;" },
+            h("div", { class:"title" }, q.title || "Quiz"),
+            h("div", { class:"sub" }, "›")
+          )
+        ));
+      }
+      if (!folderQuizzes.length) {
+        list.appendChild(h("div", { class:"card" }, h("div", { class:"sub" }, "No quizzes yet")));
+      }
+    }
+  } else if (currentFolder && currentSubfolder && currentSubsubfolder) {
+    // Subsubfolder level - show quizzes
+    const folderQuizzes = quizzes.filter(q => 
+      q.folder === currentFolder && 
+      q.subfolder === currentSubfolder && 
+      q.subsubfolder === currentSubsubfolder
+    ).sort((a,b) => (a.title||'').localeCompare(b.title||''));
     
     for (const q of folderQuizzes) {
       list.appendChild(h("button", { class:"cardBtn", onclick: ()=>nav(`/quiz/${q.id}`) },
         h("div", { class:"row", style:"justify-content:space-between;" },
-          h("div", {},
-            h("div", { class:"title" }, q.title || "Quiz"),
-            h("div", { class:"sub" }, new Date(q.updatedAt||q.createdAt||Date.now()).toLocaleDateString())
-          ),
+          h("div", { class:"title" }, q.title || "Quiz"),
           h("div", { class:"sub" }, "›")
         )
       ));

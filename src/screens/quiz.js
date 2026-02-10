@@ -10,7 +10,7 @@ export async function QuizScreen(ctx, quizId){
 
   const top = h("div", { class:"topbar" },
     h("div", { class:"row", style:"justify-content:space-between;align-items:center;" },
-      btn("←", ()=>nav("/"), "btn"),
+      btn("Back", ()=>history.back(), "btn ghost"),
       h("div", { class:"row" },
         btn("Edit", ()=>nav(`/quiz/${quizId}/edit`))
       )
