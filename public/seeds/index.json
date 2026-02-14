@@ -6,6 +6,7 @@
       "subfolders": [
         { "id": "kr", "name": "Korea" },
         { "id": "th", "name": "Thailand" },
+        { "id": "ge", "name": "Georgia" },
         { 
           "id": "in", 
           "name": "India",
@@ -46,6 +47,8 @@
     { "path": "seeds/kr-south-korea-cities.json", "folder": "language", "subfolder": "kr" },
     { "path": "seeds/th-thai-alphabet.json", "folder": "language", "subfolder": "th" },
     { "path": "seeds/th-thailand-cities.json", "folder": "language", "subfolder": "th" },
+    { "path": "seeds/ge-georgian-alphabet.json", "folder": "language", "subfolder": "ge" },
+    { "path": "seeds/ge-georgian-cities.json", "folder": "language", "subfolder": "ge" },
     { "path": "seeds/in-hindi-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-hindi" },
     { "path": "seeds/in-hindi-cities.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-hindi" },
     { "path": "seeds/in-punjabi-alphabet.json", "folder": "language", "subfolder": "in", "subsubfolder": "in-punjabi" },
